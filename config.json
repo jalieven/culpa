@@ -1,0 +1,71 @@
+{
+    "scheduler": {
+        "bamboo": {
+            "cronMinutes": "*"
+        },
+        "sonar": {
+            "cronMinutes": "*/2"
+        },
+        "zabbix": {
+            "cronMinutes": "*/5"
+        }
+    },
+    "agents": {
+        "bamboo": {
+            "apiUrl": "https://www.host.com/bamboo/rest/api/latest/result/",
+            "username": "user",
+            "password": "pwd",
+            "builds": [
+                {
+                    "key": "PRTR-PRTR",
+                    "speak": "PRTR Trunk",
+                    "checkState": true,
+                    "checkTests": true
+                }
+            ]
+        },
+        "sonar": {
+            "metricsApiUrl": "https://www.host.com/sonar/api/resources",
+            "violationsApiUrl": "https://www.host.com/sonar/api/violations",
+            "username": "user",
+            "password": "pwd",
+            "projects": [
+                {
+                    "key": "be.milieuinfo.prtr:prtr",
+                    "speak": "PRTR",
+                    "checkCoverage": true,
+                    "checkViolations": [
+                        {
+                            "blockers": true,
+                            "criticals": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "zabbix": {
+            "apiUrl": "http://www.host.com/zabbix",
+            "username": "user",
+            "password": "pwd",
+            "monitoredServers": [
+                {
+                    "host": "amqp-on-1-mgt.mmis.be",
+                    "something": "something"
+                },
+                {
+                    "host": "amqp-on-2-mgt.mmis.be",
+                    "something": "something"
+                }
+            ]
+        }
+    },
+    "redis": {
+        "host": "localhost",
+        "port": 6379,
+        "maxConnections": 10,
+        "eventTimeToLiveSeconds": 1440
+    },
+    "api": {
+        "enabled": true
+    }
+}

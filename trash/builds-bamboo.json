@@ -1,0 +1,12 @@
+{
+    "key": "GDO-GDOTRUNK",
+    "speak": "GDO Trunk",
+    "checkState": true,
+    "checkTests": true
+},
+{
+"key": "MSB-MSBLOG",
+"speak": "MSB Logging Trunk",
+"checkState": true,
+"checkTests": true
+}

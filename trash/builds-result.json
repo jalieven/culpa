@@ -1,0 +1,83 @@
+{
+    "artifacts": {
+        "max-result": 0, 
+        "size": 0, 
+        "start-index": 0
+    }, 
+    "buildCompletedTime": "2013-04-05T17:51:24.563+02:00", 
+    "buildDuration": 212064, 
+    "buildDurationDescription": "3 minutes", 
+    "buildDurationInSeconds": 212, 
+    "buildReason": "Changes by <a href=\"https://www.milieuinfo.be/bamboo/browse/user/tiroo\">Tim De Roock</a>", 
+    "buildRelativeTime": "22 minutes ago", 
+    "buildStartedTime": "2013-04-05T17:47:52.499+02:00", 
+    "buildTestSummary": "615 passed", 
+    "changes": {
+        "max-result": 1, 
+        "size": 1, 
+        "start-index": 0
+    }, 
+    "comments": {
+        "max-result": 0, 
+        "size": 0, 
+        "start-index": 0
+    }, 
+    "continuable": false, 
+    "expand": "changes,metadata,plan,vcsRevisions,artifacts,comments,labels,jiraIssues,stages", 
+    "failedTestCount": 0, 
+    "id": 48759381, 
+    "jiraIssues": {
+        "max-result": 1, 
+        "size": 1, 
+        "start-index": 0
+    }, 
+    "key": "GDO-GDOTRUNK-615", 
+    "labels": {
+        "max-result": 0, 
+        "size": 0, 
+        "start-index": 0
+    }, 
+    "lifeCycleState": "Finished", 
+    "link": {
+        "href": "https://www.milieuinfo.be/bamboo/rest/api/latest/result/GDO-GDOTRUNK-615", 
+        "rel": "self"
+    }, 
+    "metadata": {
+        "max-result": 0, 
+        "size": 0, 
+        "start-index": 0
+    }, 
+    "number": 615, 
+    "onceOff": false, 
+    "plan": {
+        "enabled": true, 
+        "key": "GDO-GDOTRUNK", 
+        "link": {
+            "href": "https://www.milieuinfo.be/bamboo/rest/api/latest/plan/GDO-GDOTRUNK", 
+            "rel": "self"
+        }, 
+        "name": "GDO - GDO trunk", 
+        "shortKey": "GDOTRUNK", 
+        "shortName": "GDO trunk", 
+        "type": "chain"
+    }, 
+    "planName": "GDO trunk", 
+    "prettyBuildCompletedTime": "vr, 5 apr, 05:51 PM", 
+    "prettyBuildStartedTime": "vr, 5 apr, 05:47 PM", 
+    "projectName": "GDO", 
+    "quarantinedTestCount": 0, 
+    "restartable": false, 
+    "stages": {
+        "max-result": 1, 
+        "size": 1, 
+        "start-index": 0
+    }, 
+    "state": "Successful", 
+    "successfulTestCount": 615, 
+    "vcsRevisionKey": "1259", 
+    "vcsRevisions": {
+        "max-result": 1, 
+        "size": 1, 
+        "start-index": 0
+    }
+}

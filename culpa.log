@@ -1,0 +1,173 @@
+2013-04-18 22:04:53,119:INFO:-1219197248: _______  __   __  ___      _______  _______
+2013-04-18 22:04:53,120:INFO:-1219197248:|       ||  | |  ||   |    |       ||   _   |
+2013-04-18 22:04:53,120:INFO:-1219197248:|       ||  | |  ||   |    |    _  ||  |_|  |
+2013-04-18 22:04:53,120:INFO:-1219197248:|       ||  |_|  ||   |    |   |_| ||       |
+2013-04-18 22:04:53,121:INFO:-1219197248:|      _||       ||   |    |    ___||       |
+2013-04-18 22:04:53,121:INFO:-1219197248:|     |  |  o o  ||   |___ |   |    |       |
+2013-04-18 22:04:53,121:INFO:-1219197248:|     |_ |   T   ||       ||   |    |   _   |
+2013-04-18 22:04:53,122:INFO:-1219197248:|_______||_______||_______||___|    |__| |__|
+2013-04-18 22:04:53,122:INFO:-1219197248:Assembling Culpa components
+2013-04-18 22:04:53,122:INFO:-1219197248:Init RedisRepo
+2013-04-18 22:04:53,123:INFO:-1219197248:Init SonarAgent!
+2013-04-18 22:04:53,123:INFO:-1219197248:Started thread pool with 0 core threads and 20 maximum threads
+2013-04-18 22:04:53,124:INFO:-1267729600:Scheduler started
+2013-04-18 22:04:53,126:INFO:-1219197248:Added job "KarotzScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:06:00)" to job store "default"
+2013-04-18 22:04:53,133:INFO:-1219197248: * Running on http://127.0.0.1:5000/
+2013-04-18 22:06:00,005:INFO:-1278215360:Running job "KarotzScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:08:00)" (scheduled at 2013-04-18 22:06:00)
+2013-04-18 22:06:00,007:INFO:-1278215360:Running scheduled sonar check!
+2013-04-18 22:06:00,007:INFO:-1278215360:SonarAgent is checking the state of the projects!
+2013-04-18 22:06:00,008:INFO:-1278215360:{u'checkViolations': [{u'blockers': True, u'criticals': True}], u'checkCoverage': True, u'key': u'be.milieuinfo.prtr:prtr', u'speak': u'PRTR'}
+2013-04-18 22:06:00,009:ERROR:-1278215360:Job "KarotzScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:08:00)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/apscheduler/scheduler.py", line 510, in _run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/jalie/Code/culpa/util/scheduler.py", line 24, in runSonarCheck
+    self.sonar_agent.checkSonar()
+  File "/home/jalie/Code/culpa/agents/sonaragent.py", line 21, in checkSonar
+    self.updateMetricInfo(project)
+  File "/home/jalie/Code/culpa/agents/sonaragent.py", line 25, in updateMetricInfo
+    if self.config['checkCoverage']:
+KeyError: 'checkCoverage'
+2013-04-18 22:06:02,361:INFO:-1219320128: _______  __   __  ___      _______  _______
+2013-04-18 22:06:02,362:INFO:-1219320128:|       ||  | |  ||   |    |       ||   _   |
+2013-04-18 22:06:02,362:INFO:-1219320128:|       ||  | |  ||   |    |    _  ||  |_|  |
+2013-04-18 22:06:02,362:INFO:-1219320128:|       ||  |_|  ||   |    |   |_| ||       |
+2013-04-18 22:06:02,363:INFO:-1219320128:|      _||       ||   |    |    ___||       |
+2013-04-18 22:06:02,363:INFO:-1219320128:|     |  |  o o  ||   |___ |   |    |       |
+2013-04-18 22:06:02,363:INFO:-1219320128:|     |_ |   T   ||       ||   |    |   _   |
+2013-04-18 22:06:02,364:INFO:-1219320128:|_______||_______||_______||___|    |__| |__|
+2013-04-18 22:06:02,364:INFO:-1219320128:
+2013-04-18 22:06:02,364:INFO:-1219320128:Lets blame some devs...
+2013-04-18 22:06:02,365:INFO:-1219320128:Assembling Culpa components
+2013-04-18 22:06:02,365:INFO:-1219320128:Init RedisRepo
+2013-04-18 22:06:02,366:INFO:-1219320128:Init SonarAgent!
+2013-04-18 22:06:02,366:INFO:-1219320128:Started thread pool with 0 core threads and 20 maximum threads
+2013-04-18 22:06:02,369:INFO:-1219320128:Added job "KarotzScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:08:00)" to job store "default"
+2013-04-18 22:06:02,369:INFO:-1267729600:Scheduler started
+2013-04-18 22:06:02,378:INFO:-1219320128: * Running on http://127.0.0.1:5000/
+2013-04-18 22:06:58,072:INFO:-1218971968: _______  __   __  ___      _______  _______
+2013-04-18 22:06:58,073:INFO:-1218971968:|       ||  | |  ||   |    |       ||   _   |
+2013-04-18 22:06:58,073:INFO:-1218971968:|       ||  | |  ||   |    |    _  ||  |_|  |
+2013-04-18 22:06:58,073:INFO:-1218971968:|       ||  |_|  ||   |    |   |_| ||       |
+2013-04-18 22:06:58,074:INFO:-1218971968:|      _||       ||   |    |    ___||       |
+2013-04-18 22:06:58,074:INFO:-1218971968:|     |  |  o o  ||   |___ |   |    |       |
+2013-04-18 22:06:58,074:INFO:-1218971968:|     |_ |   T   ||       ||   |    |   _   |
+2013-04-18 22:06:58,074:INFO:-1218971968:|_______||_______||_______||___|    |__| |__|
+2013-04-18 22:06:58,075:INFO:-1218971968:
+2013-04-18 22:06:58,075:INFO:-1218971968:Lets blame some devs...
+2013-04-18 22:06:58,075:INFO:-1218971968:Assembling Culpa components
+2013-04-18 22:06:58,076:INFO:-1218971968:Init RedisRepo
+2013-04-18 22:06:58,076:INFO:-1218971968:Init SonarAgent
+2013-04-18 22:06:58,077:INFO:-1218971968:Started thread pool with 0 core threads and 20 maximum threads
+2013-04-18 22:06:58,079:INFO:-1218971968:Added job "KarotzScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:08:00)" to job store "default"
+2013-04-18 22:06:58,079:INFO:-1267729600:Scheduler started
+2013-04-18 22:06:58,088:INFO:-1218971968: * Running on http://127.0.0.1:5000/
+2013-04-18 22:08:00,003:INFO:-1278215360:Running job "KarotzScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:08:00)" (scheduled at 2013-04-18 22:08:00)
+2013-04-18 22:08:00,006:INFO:-1278215360:Running scheduled sonar check!
+2013-04-18 22:08:00,007:INFO:-1278215360:SonarAgent is checking the state of the projects!
+2013-04-18 22:08:00,009:ERROR:-1278215360:Job "KarotzScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:10:00)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/apscheduler/scheduler.py", line 510, in _run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/jalie/Code/culpa/util/scheduler.py", line 24, in runSonarCheck
+    self.sonar_agent.checkSonar()
+  File "/home/jalie/Code/culpa/agents/sonaragent.py", line 21, in checkSonar
+    self.updateMetricInfo(project)
+  File "/home/jalie/Code/culpa/agents/sonaragent.py", line 25, in updateMetricInfo
+    if self.config['checkCoverage']:
+KeyError: 'checkCoverage'
+2013-04-18 22:08:27,392:INFO:-1219729728: _______  __   __  ___      _______  _______
+2013-04-18 22:08:27,392:INFO:-1219729728:|       ||  | |  ||   |    |       ||   _   |
+2013-04-18 22:08:27,393:INFO:-1219729728:|       ||  | |  ||   |    |    _  ||  |_|  |
+2013-04-18 22:08:27,393:INFO:-1219729728:|       ||  |_|  ||   |    |   |_| ||       |
+2013-04-18 22:08:27,393:INFO:-1219729728:|      _||       ||   |    |    ___||       |
+2013-04-18 22:08:27,394:INFO:-1219729728:|     |  |  o o  ||   |___ |   |    |       |
+2013-04-18 22:08:27,394:INFO:-1219729728:|     |_ |   T   ||       ||   |    |   _   |
+2013-04-18 22:08:27,394:INFO:-1219729728:|_______||_______||_______||___|    |__| |__|
+2013-04-18 22:08:27,394:INFO:-1219729728:
+2013-04-18 22:08:27,395:INFO:-1219729728:Lets blame some devs...
+2013-04-18 22:08:27,395:INFO:-1219729728:Assembling Culpa components
+2013-04-18 22:08:27,396:INFO:-1219729728:Init component RedisRepo
+2013-04-18 22:08:27,396:INFO:-1219729728:Init component SonarAgent
+2013-04-18 22:08:27,396:INFO:-1219729728:Started thread pool with 0 core threads and 20 maximum threads
+2013-04-18 22:08:27,397:INFO:-1267729600:Scheduler started
+2013-04-18 22:08:27,399:INFO:-1219729728:Added job "KarotzScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:10:00)" to job store "default"
+2013-04-18 22:08:27,401:INFO:-1219729728:Init component WebApi
+2013-04-18 22:08:27,412:INFO:-1219729728: * Running on http://127.0.0.1:5000/
+2013-04-18 22:09:11,368:INFO:-1219934528: _______  __   __  ___      _______  _______
+2013-04-18 22:09:11,368:INFO:-1219934528:|       ||  | |  ||   |    |       ||   _   |
+2013-04-18 22:09:11,369:INFO:-1219934528:|       ||  | |  ||   |    |    _  ||  |_|  |
+2013-04-18 22:09:11,369:INFO:-1219934528:|       ||  |_|  ||   |    |   |_| ||       |
+2013-04-18 22:09:11,370:INFO:-1219934528:|      _||       ||   |    |    ___||       |
+2013-04-18 22:09:11,370:INFO:-1219934528:|     |  |  o o  ||   |___ |   |    |       |
+2013-04-18 22:09:11,370:INFO:-1219934528:|     |_ |   T   ||       ||   |    |   _   |
+2013-04-18 22:09:11,370:INFO:-1219934528:|_______||_______||_______||___|    |__| |__|
+2013-04-18 22:09:11,371:INFO:-1219934528:
+2013-04-18 22:09:11,371:INFO:-1219934528:Lets blame some devs...
+2013-04-18 22:09:11,372:INFO:-1219934528:Assembling Culpa components
+2013-04-18 22:09:11,372:INFO:-1219934528:Init component RedisRepo
+2013-04-18 22:09:11,372:INFO:-1219934528:Init component SonarAgent
+2013-04-18 22:09:11,373:INFO:-1219934528:Init component CulpaScheduler
+2013-04-18 22:09:11,373:INFO:-1219934528:Started thread pool with 0 core threads and 20 maximum threads
+2013-04-18 22:09:11,374:INFO:-1268778176:Scheduler started
+2013-04-18 22:09:11,376:INFO:-1219934528:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:10:00)" to job store "default"
+2013-04-18 22:09:11,378:INFO:-1219934528:Init component WebApi
+2013-04-18 22:09:11,389:INFO:-1219934528: * Running on http://127.0.0.1:5000/
+2013-04-18 22:09:30,156:INFO:-1219934528:127.0.0.1 - - [18/Apr/2013 22:09:30] "GET /builds/1 HTTP/1.1" 404 -
+2013-04-18 22:09:30,217:INFO:-1219934528:127.0.0.1 - - [18/Apr/2013 22:09:30] "GET /favicon.ico HTTP/1.1" 404 -
+2013-04-18 22:09:30,227:INFO:-1219934528:127.0.0.1 - - [18/Apr/2013 22:09:30] "GET /favicon.ico HTTP/1.1" 404 -
+2013-04-18 22:09:36,191:INFO:-1219934528:127.0.0.1 - - [18/Apr/2013 22:09:36] "GET /build/1 HTTP/1.1" 200 -
+2013-04-18 22:10:00,004:INFO:-1279263936:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:10:00)" (scheduled at 2013-04-18 22:10:00)
+2013-04-18 22:10:00,007:INFO:-1279263936:Running scheduled sonar check!
+2013-04-18 22:10:00,008:INFO:-1279263936:SonarAgent is checking the state of the projects!
+2013-04-18 22:10:00,009:ERROR:-1279263936:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:12:00)" raised an exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/apscheduler/scheduler.py", line 510, in _run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/jalie/Code/culpa/util/scheduler.py", line 25, in runSonarCheck
+    self.sonar_agent.checkSonar()
+  File "/home/jalie/Code/culpa/agents/sonaragent.py", line 21, in checkSonar
+    self.updateMetricInfo(project)
+  File "/home/jalie/Code/culpa/agents/sonaragent.py", line 25, in updateMetricInfo
+    if self.config['checkCoverage']:
+KeyError: 'checkCoverage'
+2013-04-18 22:12:00,009:INFO:-1279263936:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:12:00)" (scheduled at 2013-04-18 22:12:00)
+2013-04-18 22:12:00,013:INFO:-1279263936:Running scheduled sonar check!
+2013-04-18 22:12:00,014:INFO:-1279263936:SonarAgent is checking the state of the projects!
+2013-04-18 22:14:00,009:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:14:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:16:00,010:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:16:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:18:00,010:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:18:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:20:00,011:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:20:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:22:00,009:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:22:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:24:00,009:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:24:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:26:00,010:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:26:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:28:00,010:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:28:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:30:00,010:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:30:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:32:00,010:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:32:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:34:00,012:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:36:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:36:00,008:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:36:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:38:00,010:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:38:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:40:00,009:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:42:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:42:00,008:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:42:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:44:00,012:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:46:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:46:00,011:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:48:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:48:00,010:WARNING:-1289749696:Execution of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:48:00)" skipped: maximum number of running instances reached (1)
+2013-04-18 22:48:06,555:INFO:-1219692864: _______  __   __  ___      _______  _______
+2013-04-18 22:48:06,555:INFO:-1219692864:|       ||  | |  ||   |    |       ||   _   |
+2013-04-18 22:48:06,556:INFO:-1219692864:|       ||  | |  ||   |    |    _  ||  |_|  |
+2013-04-18 22:48:06,556:INFO:-1219692864:|       ||  |_|  ||   |    |   |_| ||       |
+2013-04-18 22:48:06,556:INFO:-1219692864:|      _||       ||   |    |    ___||       |
+2013-04-18 22:48:06,557:INFO:-1219692864:|     |  |  o o  ||   |___ |   |    |       |
+2013-04-18 22:48:06,557:INFO:-1219692864:|     |_ |   T   ||       ||   |    |   _   |
+2013-04-18 22:48:06,557:INFO:-1219692864:|_______||_______||_______||___|    |__| |__|
+2013-04-18 22:48:06,558:INFO:-1219692864:
+2013-04-18 22:48:06,558:INFO:-1219692864:Lets blame some devs...
+2013-04-18 22:48:06,559:INFO:-1219692864:Assembling Culpa components
+2013-04-18 22:48:06,559:INFO:-1219692864:Init component RedisRepo
+2013-04-18 22:48:06,560:INFO:-1219692864:Init component SonarAgent
+2013-04-18 22:48:06,560:INFO:-1219692864:Init component CulpaScheduler
+2013-04-18 22:48:06,561:INFO:-1219692864:Started thread pool with 0 core threads and 20 maximum threads
+2013-04-18 22:48:06,565:INFO:-1219692864:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*/2'], next run at: 2013-04-18 22:50:00)" to job store "default"
+2013-04-18 22:48:06,565:INFO:-1219692864:Init component WebApi
+2013-04-18 22:48:06,573:INFO:-1267729600:Scheduler started
+2013-04-18 22:48:06,577:INFO:-1219692864: * Running on http://127.0.0.1:5000/

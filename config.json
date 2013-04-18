@@ -12,7 +12,8 @@
     },
     "agents": {
         "bamboo": {
-            "apiUrl": "https://www.host.com/bamboo/rest/api/latest/result/",
+            "enabled": false,
+            "apiUrl": "https://www.milieuinfo.be/bamboo/rest/api/latest/result/",
             "username": "user",
             "password": "pwd",
             "builds": [
@@ -25,8 +26,9 @@
             ]
         },
         "sonar": {
-            "metricsApiUrl": "https://www.host.com/sonar/api/resources",
-            "violationsApiUrl": "https://www.host.com/sonar/api/violations",
+            "enabled": true,
+            "metricsApiUrl": "https://www.milieuinfo.be/sonar/api/resources",
+            "violationsApiUrl": "https://www.milieuinfo.be/sonar/api/violations",
             "username": "user",
             "password": "pwd",
             "projects": [
@@ -44,7 +46,8 @@
             ]
         },
         "zabbix": {
-            "apiUrl": "http://www.host.com/zabbix",
+            "enabled": true,
+            "apiUrl": "http://www..milieuinfo.be/zabbix",
             "username": "user",
             "password": "pwd",
             "monitoredServers": [

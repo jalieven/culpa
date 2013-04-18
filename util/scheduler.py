@@ -2,9 +2,9 @@ import logging
 from apscheduler.scheduler import Scheduler
 
 
-class KarotzScheduler:
-
+class CulpaScheduler:
     def __init__(self, config, bamboo_agent, sonar_agent):
+        logging.info("Init component CulpaScheduler")
         self.config = config
         self.bamboo_agent = bamboo_agent
         self.sonar_agent = sonar_agent

@@ -1,11 +1,11 @@
+import time
+
 from flufl.enum import Enum
 import jsonpickle
-import time
 
 
 class Event:
-
-    def __init__(self, message, judgement, instigators):
+    def __init__(self, message=None, judgement=None, instigators=None):
         self.timestamp = int(time.time() * 1000)
         self.message = message
         self.judgement = judgement
@@ -29,7 +29,8 @@ class EventJudgement(Enum):
 
 
 class BambooEvent(Event):
-    def __init__(self, message, judgement, instigators, build_key, build_state, tests):
+    def __init__(self, message=None, judgement=None, instigators=None,
+                 build_key=None, build_state=None, tests=None):
         Event.__init__(self, message, judgement, instigators)
         self.build_key = build_key
         self.build_state = build_state
@@ -42,7 +43,8 @@ class BambooBuildState(Enum):
 
 
 class SonarEvent(Event):
-    def __init__(self, message, judgement, instigators, project_key, coverage, violations):
+    def __init__(self, message=None, judgement=None, instigators=None,
+                 project_key=None, coverage=None, violations=None):
         Event.__init__(self, message, judgement, instigators)
         self.project_key = project_key
         self.coverage = coverage

@@ -4,11 +4,10 @@ from domain.event import Event
 
 
 class RedisRepo:
-
     EVENTS_HASH_KEY_PREFIX = "EVENTS:"
 
     def __init__(self, config):
-        logging.info("Init RedisRepo")
+        logging.info("Init component RedisRepo")
         self.config = config
         self.pool = redis.ConnectionPool(host=self.config['host'],
                                          port=self.config['port'],

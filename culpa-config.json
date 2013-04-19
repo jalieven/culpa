@@ -1,10 +1,15 @@
 {
+    "logging": {
+        "filename": "culpa.log",
+        "logLevel": 20,
+        "format": "%(asctime)s:%(levelname)s:%(thread)d:%(message)s"
+    },
     "scheduler": {
         "bamboo": {
             "cronMinutes": "*"
         },
         "sonar": {
-            "cronMinutes": "*/2"
+            "cronMinutes": "*"
         },
         "zabbix": {
             "cronMinutes": "*/5"
@@ -69,6 +74,9 @@
         "eventTimeToLiveSeconds": 1440
     },
     "api": {
-        "enabled": true
+        "enabled": true,
+        "debug": true,
+        "host": "0.0.0.0",
+        "port": 8888
     }
 }

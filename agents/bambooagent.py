@@ -5,7 +5,7 @@ import base64
 
 import time
 
-from BeautifulSoup import BeautifulSoup as soup
+from bs4 import BeautifulSoup as soup
 
 
 class BambooAgent:

@@ -15,7 +15,7 @@ class WebApi:
         if self.config['enabled']:
             self.api.add_resource(BuildUrl, '/build/<string:build_key>')
             self.api.add_resource(EventStreamUrl, '/stream')
-            self.app.run()
+            self.app.run(host=self.config['host'], port=self.config['port'], debug=self.config['debug'])
 
 
 class BuildUrl(Resource):

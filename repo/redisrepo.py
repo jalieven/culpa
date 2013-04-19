@@ -1,6 +1,8 @@
 import logging
 import redis
+
 from domain.event import Event
+from failure.failures import RedisException
 
 
 class RedisRepo:
@@ -20,7 +22,7 @@ class RedisRepo:
             self.redis.setex(RedisRepo.EVENTS_HASH_KEY_PREFIX + event.timestamp,
                              self.config['eventTimeToLiveSeconds'], event.pickle())
         except redis.RedisError, e:
-            logging.error(e)
+            raise RedisException({"message": "Could not save Event to Redis!", "cause": e.__str__()})
 
     def getEventStream(self):
         try:
@@ -33,4 +35,4 @@ class RedisRepo:
                     events.append(Event.unpickle(pickled_event))
             return events
         except redis.RedisError, e:
-            logging.error(e)
+            raise RedisException({"message": "Could not retrieve EventStream from Redis!", "cause": e.__str__()})

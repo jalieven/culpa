@@ -20,5 +20,5 @@ class CulpaComponents:
             self.sonar_agent = SonarAgent(self.config['agents']['sonar'], self.redis_repo)
         else:
             self.sonar_agent = None
-        self.karotz_scheduler = CulpaScheduler(self.config['scheduler'], self.bamboo_agent, self.sonar_agent)
+        self.culpa_scheduler = CulpaScheduler(self.config['scheduler'], self.bamboo_agent, self.sonar_agent)
         self.web_api = WebApi(self.config['api'])

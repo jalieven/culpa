@@ -34,6 +34,8 @@ sudo pip install flufl.enum
 sudo pip install jsonpickle
 sudo pip install jsonschema
 sudo pip install beautifulsoup4
+sudo pip install mock
+
 
 
 Configuration

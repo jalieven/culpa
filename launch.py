@@ -1,4 +1,3 @@
-#!/usr/bin/python
 import logging
 import json
 from components.components import CulpaComponents

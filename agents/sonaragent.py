@@ -24,11 +24,14 @@ class SonarAgent:
         if project['checkCoverage']:
             resource_param = "?resource={0}".format(project['key'])
             metrics_param = "&metrics=coverage"
+            blocker_violations_param = "&depth=-1&priorities=BLOCKER"
+            critical_violations_param = "&depth=-1&priorities=CRITICAL"
             sonar_metrics = "{0}{1}{2}".format(self.config['metricsApiUrl'], resource_param, metrics_param)
+            sonar_violations = "{0}{1}{2}".format(self.config['violationsApiUrl'], resource_param, metrics_param)
             try:
                 sonar_response = ApiFetcher.fetch(sonar_metrics, self.config['username'], self.config['password'])
                 jdata = json.load(sonar_response)
-                logging.debug("Fetched coverage from sonar: " + jdata)
+                logging.debug("Fetched coverage from sonar: ", jdata)
             except FetchException, f:
                 logging.error("Exception while updating metric info of project {0} -> {1}".format(project['key'], f))
 

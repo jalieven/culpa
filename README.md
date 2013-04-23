@@ -24,21 +24,25 @@ as a stream and will be acted upon by the Karotz rabbit.
 Prerequisites/dependencies
 --------------------------
 
+The dependencies should all be covered when you performed the setup.py:
+    sudo python setup.py develop
 
-sudo pip install redis
-sudo pip install hiredis
-sudo pip install apscheduler
-sudo pip install flask
-sudo pip install flask-restful
-sudo pip install flufl.enum
-sudo pip install jsonpickle
-sudo pip install jsonschema
-sudo pip install beautifulsoup4
-sudo pip install mock
+If you want to do it by hand:
+    sudo pip install redis
+    sudo pip install hiredis
+    sudo pip install gevent-socketio
+    sudo pip install apscheduler
+    sudo pip install pyramid
+    sudo pip install flufl.enum
+    sudo pip install jsonpickle
+    sudo pip install beautifulsoup4
+    sudo pip install mock
 
 
+Configuration and startup
+-------------------------
 
-Configuration
--------------
-
-Everything that can be configured in Culpa is located in the file culpa-config.json
+Everything that can be configured in Culpa is located in the file culpa-config.json.
+All other configuration (pyramid/web-api, logging, ...) is located in development.ini and production.ini
+To startup the application simply:
+    pserve --reload development.ini

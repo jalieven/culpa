@@ -3,7 +3,6 @@ from agents.bambooagent import BambooAgent
 from agents.sonaragent import SonarAgent
 from repo.redisrepo import RedisRepo
 from util.scheduler import CulpaScheduler
-from web.api import WebApi
 
 
 class CulpaComponents:
@@ -21,4 +20,3 @@ class CulpaComponents:
         else:
             self.sonar_agent = None
         self.culpa_scheduler = CulpaScheduler(self.config['scheduler'], self.bamboo_agent, self.sonar_agent)
-        self.web_api = WebApi(self.config['api'])

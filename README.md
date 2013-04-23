@@ -45,7 +45,7 @@ Configuration and startup
 -------------------------
 
 Everything that can be configured in Culpa is located in the file culpa-config.json.
-All other configuration (pyramid/web-api, logging, ...) is located in development.ini and production.ini
+All other configuration (pyramid/web-api, logging, ...) is located in development.ini and production.ini.
 To startup the application simply:
 
     pserve --reload development.ini

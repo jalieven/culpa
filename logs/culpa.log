@@ -1,0 +1,464 @@
+2013-04-24 20:28:10,909:INFO :-1219066176: _______  __   __  ___      _______  _______ 
+2013-04-24 20:28:10,910:INFO :-1219066176:|       ||  | |  ||   |    |       ||       |
+2013-04-24 20:28:10,910:INFO :-1219066176:|       ||  | |  ||   |    |    _  ||   _   |
+2013-04-24 20:28:10,910:INFO :-1219066176:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-04-24 20:28:10,910:INFO :-1219066176:|      _||       ||   |    |    ___||  |_|  |
+2013-04-24 20:28:10,910:INFO :-1219066176:|     |  |  o o  ||   |___ |   |    |       |
+2013-04-24 20:28:10,910:INFO :-1219066176:|     |_ |   T   ||       ||   |    |   _   |
+2013-04-24 20:28:10,910:INFO :-1219066176:|_______||_______||_______||___|    |__| |__|
+2013-04-24 20:28:10,910:INFO :-1219066176:
+2013-04-24 20:28:10,910:INFO :-1219066176:Lets blame some devs...
+2013-04-24 20:28:10,910:INFO :-1219066176:Assembling Culpa components
+2013-04-24 20:28:10,910:INFO :-1219066176:Init component RedisRepo
+2013-04-24 20:28:10,910:INFO :-1219066176:Init component SonarAgent
+2013-04-24 20:28:10,910:INFO :-1219066176:Init component CulpaScheduler
+2013-04-24 20:28:10,910:INFO :-1219066176:Started thread pool with 0 core threads and 20 maximum threads
+2013-04-24 20:28:10,911:INFO :-1230107840:Scheduler started
+2013-04-24 20:28:10,912:INFO :-1219066176:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:29:00)" to job store "default"
+2013-04-24 20:28:10,912:INFO :-1219066176:Init Culpa Pyramid app
+2013-04-24 20:28:10,984:INFO :-1219066176:End init Culpa Pyramid app
+2013-04-24 20:29:00,001:INFO :-1283458240:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:29:00)" (scheduled at 2013-04-24 20:29:00)
+2013-04-24 20:29:00,001:INFO :-1283458240:Running scheduled sonar check!
+2013-04-24 20:29:00,002:INFO :-1283458240:SonarAgent is checking the state of the projects!
+2013-04-24 20:29:00,405:ERROR:-1283458240:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:29:00,406:INFO :-1283458240:SonarAgent is done checking the state of the builds!
+2013-04-24 20:29:00,406:INFO :-1283458240:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:30:00)" executed successfully
+2013-04-24 20:30:00,003:INFO :-1283458240:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:31:00)" (scheduled at 2013-04-24 20:30:00)
+2013-04-24 20:30:00,004:INFO :-1283458240:Running scheduled sonar check!
+2013-04-24 20:30:00,004:INFO :-1283458240:SonarAgent is checking the state of the projects!
+2013-04-24 20:30:00,170:ERROR:-1283458240:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:30:00,171:INFO :-1283458240:SonarAgent is done checking the state of the builds!
+2013-04-24 20:30:00,171:INFO :-1283458240:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:31:00)" executed successfully
+2013-04-24 20:31:00,003:INFO :-1283458240:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:31:00)" (scheduled at 2013-04-24 20:31:00)
+2013-04-24 20:31:00,004:INFO :-1283458240:Running scheduled sonar check!
+2013-04-24 20:31:00,004:INFO :-1283458240:SonarAgent is checking the state of the projects!
+2013-04-24 20:31:00,174:ERROR:-1283458240:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:31:00,174:INFO :-1283458240:SonarAgent is done checking the state of the builds!
+2013-04-24 20:31:00,175:INFO :-1283458240:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:32:00)" executed successfully
+2013-04-24 20:32:00,002:INFO :-1283458240:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:32:00)" (scheduled at 2013-04-24 20:32:00)
+2013-04-24 20:32:00,003:INFO :-1283458240:Running scheduled sonar check!
+2013-04-24 20:32:00,003:INFO :-1283458240:SonarAgent is checking the state of the projects!
+2013-04-24 20:32:00,162:ERROR:-1283458240:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:32:00,163:INFO :-1283458240:SonarAgent is done checking the state of the builds!
+2013-04-24 20:32:00,163:INFO :-1283458240:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:33:00)" executed successfully
+2013-04-24 20:33:00,002:INFO :-1283458240:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:33:00)" (scheduled at 2013-04-24 20:33:00)
+2013-04-24 20:33:00,003:INFO :-1283458240:Running scheduled sonar check!
+2013-04-24 20:33:00,003:INFO :-1283458240:SonarAgent is checking the state of the projects!
+2013-04-24 20:33:00,165:ERROR:-1283458240:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:33:00,166:INFO :-1283458240:SonarAgent is done checking the state of the builds!
+2013-04-24 20:33:00,166:INFO :-1283458240:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:34:00)" executed successfully
+2013-04-24 20:33:42,587:INFO :-1219397952: _______  __   __  ___      _______  _______ 
+2013-04-24 20:33:42,587:INFO :-1219397952:|       ||  | |  ||   |    |       ||       |
+2013-04-24 20:33:42,587:INFO :-1219397952:|       ||  | |  ||   |    |    _  ||   _   |
+2013-04-24 20:33:42,587:INFO :-1219397952:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-04-24 20:33:42,587:INFO :-1219397952:|      _||       ||   |    |    ___||  |_|  |
+2013-04-24 20:33:42,587:INFO :-1219397952:|     |  |  o o  ||   |___ |   |    |       |
+2013-04-24 20:33:42,587:INFO :-1219397952:|     |_ |   T   ||       ||   |    |   _   |
+2013-04-24 20:33:42,587:INFO :-1219397952:|_______||_______||_______||___|    |__| |__|
+2013-04-24 20:33:42,587:INFO :-1219397952:
+2013-04-24 20:33:42,587:INFO :-1219397952:Lets blame some devs...
+2013-04-24 20:33:42,587:INFO :-1219397952:Assembling Culpa components
+2013-04-24 20:33:42,587:INFO :-1219397952:Init component RedisRepo
+2013-04-24 20:33:42,587:INFO :-1219397952:Init component SonarAgent
+2013-04-24 20:33:42,587:INFO :-1219397952:Init component CulpaScheduler
+2013-04-24 20:33:42,587:INFO :-1219397952:Started thread pool with 0 core threads and 20 maximum threads
+2013-04-24 20:33:42,588:INFO :-1240388800:Scheduler started
+2013-04-24 20:33:42,588:INFO :-1219397952:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:34:00)" to job store "default"
+2013-04-24 20:33:42,589:INFO :-1219397952:Init Culpa Pyramid app
+2013-04-24 20:33:42,648:INFO :-1219397952:End init Culpa Pyramid app
+2013-04-24 20:34:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:34:00)" (scheduled at 2013-04-24 20:34:00)
+2013-04-24 20:34:00,001:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:34:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:34:00,172:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:34:00,173:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:34:00,173:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:35:00)" executed successfully
+2013-04-24 20:35:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:35:00)" (scheduled at 2013-04-24 20:35:00)
+2013-04-24 20:35:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:35:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:35:00,159:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:35:00,160:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:35:00,160:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:36:00)" executed successfully
+2013-04-24 20:36:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:36:00)" (scheduled at 2013-04-24 20:36:00)
+2013-04-24 20:36:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:36:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:36:00,159:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:36:00,160:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:36:00,160:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:37:00)" executed successfully
+2013-04-24 20:37:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:37:00)" (scheduled at 2013-04-24 20:37:00)
+2013-04-24 20:37:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:37:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:37:00,174:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:37:00,175:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:37:00,175:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:38:00)" executed successfully
+2013-04-24 20:38:00,003:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:38:00)" (scheduled at 2013-04-24 20:38:00)
+2013-04-24 20:38:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:38:00,004:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:38:00,180:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:38:00,180:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:38:00,180:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:39:00)" executed successfully
+2013-04-24 20:39:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:39:00)" (scheduled at 2013-04-24 20:39:00)
+2013-04-24 20:39:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:39:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:39:00,157:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:39:00,158:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:39:00,158:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:40:00)" executed successfully
+2013-04-24 20:40:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:40:00)" (scheduled at 2013-04-24 20:40:00)
+2013-04-24 20:40:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:40:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:40:00,162:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:40:00,163:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:40:00,163:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:41:00)" executed successfully
+2013-04-24 20:41:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:41:00)" (scheduled at 2013-04-24 20:41:00)
+2013-04-24 20:41:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:41:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:41:00,155:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:41:00,155:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:41:00,155:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:42:00)" executed successfully
+2013-04-24 20:42:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:43:00)" (scheduled at 2013-04-24 20:42:00)
+2013-04-24 20:42:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:42:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:42:00,173:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:42:00,174:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:42:00,174:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:43:00)" executed successfully
+2013-04-24 20:43:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:44:00)" (scheduled at 2013-04-24 20:43:00)
+2013-04-24 20:43:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:43:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:43:00,161:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:43:00,162:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:43:00,162:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:44:00)" executed successfully
+2013-04-24 20:44:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:45:00)" (scheduled at 2013-04-24 20:44:00)
+2013-04-24 20:44:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:44:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:44:00,161:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:44:00,162:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:44:00,162:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:45:00)" executed successfully
+2013-04-24 20:45:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:46:00)" (scheduled at 2013-04-24 20:45:00)
+2013-04-24 20:45:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:45:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:45:00,170:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:45:00,170:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:45:00,170:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:46:00)" executed successfully
+2013-04-24 20:46:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:47:00)" (scheduled at 2013-04-24 20:46:00)
+2013-04-24 20:46:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:46:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:46:00,205:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:46:00,206:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:46:00,206:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:47:00)" executed successfully
+2013-04-24 20:47:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:47:00)" (scheduled at 2013-04-24 20:47:00)
+2013-04-24 20:47:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:47:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:47:00,299:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:47:00,300:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:47:00,300:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:48:00)" executed successfully
+2013-04-24 20:48:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:49:00)" (scheduled at 2013-04-24 20:48:00)
+2013-04-24 20:48:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:48:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:48:00,163:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:48:00,164:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:48:00,165:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:49:00)" executed successfully
+2013-04-24 20:49:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:49:00)" (scheduled at 2013-04-24 20:49:00)
+2013-04-24 20:49:00,001:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:49:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:49:00,180:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:49:00,180:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:49:00,181:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:50:00)" executed successfully
+2013-04-24 20:50:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:50:00)" (scheduled at 2013-04-24 20:50:00)
+2013-04-24 20:50:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:50:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:50:00,168:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:50:00,169:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:50:00,169:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:51:00)" executed successfully
+2013-04-24 20:51:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:52:00)" (scheduled at 2013-04-24 20:51:00)
+2013-04-24 20:51:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:51:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:51:00,165:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:51:00,165:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:51:00,165:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:52:00)" executed successfully
+2013-04-24 20:52:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:52:00)" (scheduled at 2013-04-24 20:52:00)
+2013-04-24 20:52:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:52:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:52:00,154:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:52:00,155:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:52:00,155:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:53:00)" executed successfully
+2013-04-24 20:53:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:53:00)" (scheduled at 2013-04-24 20:53:00)
+2013-04-24 20:53:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:53:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:53:00,179:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:53:00,179:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:53:00,180:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:54:00)" executed successfully
+2013-04-24 20:54:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:54:00)" (scheduled at 2013-04-24 20:54:00)
+2013-04-24 20:54:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:54:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:54:00,161:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:54:00,161:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:54:00,161:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:55:00)" executed successfully
+2013-04-24 20:55:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:56:00)" (scheduled at 2013-04-24 20:55:00)
+2013-04-24 20:55:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:55:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:55:00,164:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:55:00,164:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:55:00,164:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:56:00)" executed successfully
+2013-04-24 20:56:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:56:00)" (scheduled at 2013-04-24 20:56:00)
+2013-04-24 20:56:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:56:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:56:00,162:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:56:00,163:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:56:00,163:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:57:00)" executed successfully
+2013-04-24 20:57:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:57:00)" (scheduled at 2013-04-24 20:57:00)
+2013-04-24 20:57:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:57:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:57:00,158:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:57:00,159:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:57:00,159:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:58:00)" executed successfully
+2013-04-24 20:58:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:59:00)" (scheduled at 2013-04-24 20:58:00)
+2013-04-24 20:58:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:58:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:58:00,176:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:58:00,177:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:58:00,177:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:59:00)" executed successfully
+2013-04-24 20:59:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 20:59:00)" (scheduled at 2013-04-24 20:59:00)
+2013-04-24 20:59:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 20:59:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 20:59:00,163:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 20:59:00,163:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 20:59:00,164:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:00:00)" executed successfully
+2013-04-24 21:00:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:00:00)" (scheduled at 2013-04-24 21:00:00)
+2013-04-24 21:00:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:00:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:00:00,164:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:00:00,165:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:00:00,165:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:01:00)" executed successfully
+2013-04-24 21:01:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:01:00)" (scheduled at 2013-04-24 21:01:00)
+2013-04-24 21:01:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:01:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:01:00,177:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:01:00,178:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:01:00,178:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:02:00)" executed successfully
+2013-04-24 21:02:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:02:00)" (scheduled at 2013-04-24 21:02:00)
+2013-04-24 21:02:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:02:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:02:00,163:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:02:00,164:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:02:00,164:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:03:00)" executed successfully
+2013-04-24 21:03:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:03:00)" (scheduled at 2013-04-24 21:03:00)
+2013-04-24 21:03:00,001:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:03:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:03:00,170:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:03:00,170:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:03:00,170:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:04:00)" executed successfully
+2013-04-24 21:04:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:04:00)" (scheduled at 2013-04-24 21:04:00)
+2013-04-24 21:04:00,001:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:04:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:04:00,160:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:04:00,161:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:04:00,161:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:05:00)" executed successfully
+2013-04-24 21:05:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:06:00)" (scheduled at 2013-04-24 21:05:00)
+2013-04-24 21:05:00,001:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:05:00,001:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:05:00,180:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:05:00,181:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:05:00,181:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:06:00)" executed successfully
+2013-04-24 21:06:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:06:00)" (scheduled at 2013-04-24 21:06:00)
+2013-04-24 21:06:00,001:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:06:00,001:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:06:00,154:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:06:00,154:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:06:00,155:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:07:00)" executed successfully
+2013-04-24 21:07:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:07:00)" (scheduled at 2013-04-24 21:07:00)
+2013-04-24 21:07:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:07:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:07:00,197:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:07:00,197:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:07:00,197:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:08:00)" executed successfully
+2013-04-24 21:08:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:08:00)" (scheduled at 2013-04-24 21:08:00)
+2013-04-24 21:08:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:08:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:08:00,161:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:08:00,162:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:08:00,162:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:09:00)" executed successfully
+2013-04-24 21:09:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:09:00)" (scheduled at 2013-04-24 21:09:00)
+2013-04-24 21:09:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:09:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:09:00,184:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:09:00,185:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:09:00,185:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:10:00)" executed successfully
+2013-04-24 21:10:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:11:00)" (scheduled at 2013-04-24 21:10:00)
+2013-04-24 21:10:00,001:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:10:00,001:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:10:00,169:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:10:00,169:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:10:00,169:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:11:00)" executed successfully
+2013-04-24 21:11:00,000:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:11:00)" (scheduled at 2013-04-24 21:11:00)
+2013-04-24 21:11:00,001:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:11:00,001:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:11:00,156:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:11:00,157:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:11:00,157:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:12:00)" executed successfully
+2013-04-24 21:12:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:12:00)" (scheduled at 2013-04-24 21:12:00)
+2013-04-24 21:12:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:12:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:12:00,233:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:12:00,234:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:12:00,234:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:13:00)" executed successfully
+2013-04-24 21:13:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:14:00)" (scheduled at 2013-04-24 21:13:00)
+2013-04-24 21:13:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:13:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:13:00,168:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:13:00,169:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:13:00,169:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:14:00)" executed successfully
+2013-04-24 21:14:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:15:00)" (scheduled at 2013-04-24 21:14:00)
+2013-04-24 21:14:00,001:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:14:00,001:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:14:00,158:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:14:00,158:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:14:00,158:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:15:00)" executed successfully
+2013-04-24 21:15:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:15:00)" (scheduled at 2013-04-24 21:15:00)
+2013-04-24 21:15:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:15:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:15:00,170:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:15:00,170:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:15:00,170:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:16:00)" executed successfully
+2013-04-24 21:16:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:16:00)" (scheduled at 2013-04-24 21:16:00)
+2013-04-24 21:16:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:16:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:16:00,156:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:16:00,157:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:16:00,157:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:17:00)" executed successfully
+2013-04-24 21:17:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:17:00)" (scheduled at 2013-04-24 21:17:00)
+2013-04-24 21:17:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:17:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:17:00,164:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:17:00,164:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:17:00,164:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:18:00)" executed successfully
+2013-04-24 21:18:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:18:00)" (scheduled at 2013-04-24 21:18:00)
+2013-04-24 21:18:00,001:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:18:00,001:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:18:00,165:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:18:00,166:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:18:00,166:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:19:00)" executed successfully
+2013-04-24 21:19:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:19:00)" (scheduled at 2013-04-24 21:19:00)
+2013-04-24 21:19:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:19:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:19:00,161:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:19:00,162:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:19:00,162:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:20:00)" executed successfully
+2013-04-24 21:20:00,003:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:20:00)" (scheduled at 2013-04-24 21:20:00)
+2013-04-24 21:20:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:20:00,004:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:20:00,186:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:20:00,187:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:20:00,187:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:21:00)" executed successfully
+2013-04-24 21:21:00,003:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:21:00)" (scheduled at 2013-04-24 21:21:00)
+2013-04-24 21:21:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:21:00,004:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:21:00,153:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:21:00,153:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:21:00,153:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:22:00)" executed successfully
+2013-04-24 21:22:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:23:00)" (scheduled at 2013-04-24 21:22:00)
+2013-04-24 21:22:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:22:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:22:00,189:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:22:00,190:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:22:00,190:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:23:00)" executed successfully
+2013-04-24 21:23:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:23:00)" (scheduled at 2013-04-24 21:23:00)
+2013-04-24 21:23:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:23:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:23:00,164:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:23:00,165:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:23:00,165:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:24:00)" executed successfully
+2013-04-24 21:24:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:25:00)" (scheduled at 2013-04-24 21:24:00)
+2013-04-24 21:24:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:24:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:24:00,162:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:24:00,163:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:24:00,163:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:25:00)" executed successfully
+2013-04-24 21:25:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:25:00)" (scheduled at 2013-04-24 21:25:00)
+2013-04-24 21:25:00,001:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:25:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:25:00,177:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:25:00,178:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:25:00,178:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:26:00)" executed successfully
+2013-04-24 21:26:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:27:00)" (scheduled at 2013-04-24 21:26:00)
+2013-04-24 21:26:00,001:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:26:00,001:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:26:00,172:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:26:00,172:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:26:00,172:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:27:00)" executed successfully
+2013-04-24 21:27:00,000:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:27:00)" (scheduled at 2013-04-24 21:27:00)
+2013-04-24 21:27:00,001:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:27:00,001:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:27:00,187:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:27:00,187:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:27:00,187:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:28:00)" executed successfully
+2013-04-24 21:28:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:28:00)" (scheduled at 2013-04-24 21:28:00)
+2013-04-24 21:28:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:28:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:28:00,165:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:28:00,166:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:28:00,166:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:29:00)" executed successfully
+2013-04-24 21:29:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:30:00)" (scheduled at 2013-04-24 21:29:00)
+2013-04-24 21:29:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:29:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:29:00,154:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:29:00,154:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:29:00,154:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:30:00)" executed successfully
+2013-04-24 21:30:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:30:00)" (scheduled at 2013-04-24 21:30:00)
+2013-04-24 21:30:00,001:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:30:00,001:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:30:00,181:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:30:00,181:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:30:00,182:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:31:00)" executed successfully
+2013-04-24 21:31:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:32:00)" (scheduled at 2013-04-24 21:31:00)
+2013-04-24 21:31:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:31:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:31:00,165:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:31:00,166:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:31:00,166:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:32:00)" executed successfully
+2013-04-24 21:32:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:33:00)" (scheduled at 2013-04-24 21:32:00)
+2013-04-24 21:32:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:32:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:32:00,166:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:32:00,166:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:32:00,167:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:33:00)" executed successfully
+2013-04-24 21:33:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:33:00)" (scheduled at 2013-04-24 21:33:00)
+2013-04-24 21:33:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:33:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:33:00,172:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:33:00,172:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:33:00,173:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:34:00)" executed successfully
+2013-04-24 21:34:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:34:00)" (scheduled at 2013-04-24 21:34:00)
+2013-04-24 21:34:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:34:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:34:00,167:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:34:00,168:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:34:00,168:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:35:00)" executed successfully
+2013-04-24 21:35:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:35:00)" (scheduled at 2013-04-24 21:35:00)
+2013-04-24 21:35:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:35:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:35:00,160:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:35:00,160:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:35:00,160:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:36:00)" executed successfully
+2013-04-24 21:36:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:36:00)" (scheduled at 2013-04-24 21:36:00)
+2013-04-24 21:36:00,002:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:36:00,002:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:36:00,155:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:36:00,155:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:36:00,155:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:37:00)" executed successfully
+2013-04-24 21:37:00,001:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:37:00)" (scheduled at 2013-04-24 21:37:00)
+2013-04-24 21:37:00,001:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:37:00,001:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:37:00,155:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:37:00,155:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:37:00,156:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:38:00)" executed successfully
+2013-04-24 21:38:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:39:00)" (scheduled at 2013-04-24 21:38:00)
+2013-04-24 21:38:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:38:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:38:00,179:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:38:00,180:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:38:00,180:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:39:00)" executed successfully
+2013-04-24 21:39:00,002:INFO :-1290798272:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:40:00)" (scheduled at 2013-04-24 21:39:00)
+2013-04-24 21:39:00,003:INFO :-1290798272:Running scheduled sonar check!
+2013-04-24 21:39:00,003:INFO :-1290798272:SonarAgent is checking the state of the projects!
+2013-04-24 21:39:00,183:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-04-24 21:39:00,184:INFO :-1290798272:SonarAgent is done checking the state of the builds!
+2013-04-24 21:39:00,184:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:40:00)" executed successfully

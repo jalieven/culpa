@@ -16,6 +16,7 @@ def main(global_config, **settings):
     config.add_static_view('static', 'static', cache_max_age=3600)
     config.add_renderer('.html', 'pyramid.mako_templating.renderer_factory')
     config.add_route('home', '/')
+    config.add_route('socketio', 'socket.io/*remaining')
     config.scan()
     log.info("End init Culpa Pyramid app")
     return config.make_wsgi_app()

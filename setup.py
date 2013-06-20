@@ -9,6 +9,8 @@ requires = [
     'pyramid',
     'pyramid_debugtoolbar',
     'waitress',
+    'pymongo',
+    'mongoengine',
     'redis',
     'hiredis',
     'gevent-socketio',

@@ -24,12 +24,18 @@ as a stream and will be acted upon by the Karotz rabbit.
 Prerequisites/dependencies
 --------------------------
 
+First off you need libevent:
+
+    sudo apt-get install libevent-dev
+
 The dependencies should all be covered when you performed the setup.py:
 
     sudo python setup.py develop
 
 If you want to do it by hand:
 
+    sudo pip install pymongo
+    sudo pip install mongoengine
     sudo pip install redis
     sudo pip install hiredis
     sudo pip install gevent-socketio

@@ -23,15 +23,18 @@
 
 
 
-        <div id="w">
 
 
-            <!-- Add your site or application content here -->
-            <p>{{hello}} This is HTML5 Boilerplate.</p>
+            <div ng-repeat='event in events'>
+                <span>{{event.type}}</span>
+                <input ng-model='event.comment'>
+                <span>{{event.instigator}}</span>
+                <span>{{event.message}}</span>
+                <span>{{event.project}}</span>
+                <button ng-click="remove($index)">Remove</button>
+            </div>
 
 
-
-        </div>
 
 
 

@@ -462,3 +462,973 @@
 2013-04-24 21:39:00,183:ERROR:-1290798272:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
 2013-04-24 21:39:00,184:INFO :-1290798272:SonarAgent is done checking the state of the builds!
 2013-04-24 21:39:00,184:INFO :-1290798272:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-04-24 21:40:00)" executed successfully
+2013-06-20 13:56:52,507:INFO :-1221756160: _______  __   __  ___      _______  _______ 
+2013-06-20 13:56:52,535:INFO :-1221756160:|       ||  | |  ||   |    |       ||       |
+2013-06-20 13:56:52,535:INFO :-1221756160:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 13:56:52,535:INFO :-1221756160:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 13:56:52,535:INFO :-1221756160:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 13:56:52,535:INFO :-1221756160:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 13:56:52,535:INFO :-1221756160:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 13:56:52,536:INFO :-1221756160:|_______||_______||_______||___|    |__| |__|
+2013-06-20 13:56:52,536:INFO :-1221756160:
+2013-06-20 13:56:52,536:INFO :-1221756160:Lets blame some devs...
+2013-06-20 13:56:52,536:INFO :-1221756160:Assembling Culpa components
+2013-06-20 13:56:52,536:INFO :-1221756160:Init component RedisRepo
+2013-06-20 13:56:52,536:INFO :-1221756160:Init component SonarAgent
+2013-06-20 13:56:52,536:INFO :-1221756160:Init component CulpaScheduler
+2013-06-20 13:56:52,536:INFO :-1221756160:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 13:56:52,536:INFO :-1240011968:Scheduler started
+2013-06-20 13:56:52,537:INFO :-1221756160:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 13:57:00)" to job store "default"
+2013-06-20 13:56:52,537:INFO :-1221756160:Init Culpa Pyramid app
+2013-06-20 13:56:53,333:INFO :-1221756160:End init Culpa Pyramid app
+2013-06-20 14:05:00,002:INFO :-1221256448: _______  __   __  ___      _______  _______ 
+2013-06-20 14:05:00,002:INFO :-1221256448:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:05:00,002:INFO :-1221256448:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:05:00,002:INFO :-1221256448:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:05:00,002:INFO :-1221256448:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:05:00,002:INFO :-1221256448:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:05:00,002:INFO :-1221256448:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:05:00,002:INFO :-1221256448:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:05:00,002:INFO :-1221256448:
+2013-06-20 14:05:00,002:INFO :-1221256448:Lets blame some devs...
+2013-06-20 14:05:00,002:INFO :-1221256448:Assembling Culpa components
+2013-06-20 14:05:00,002:INFO :-1221256448:Init component RedisRepo
+2013-06-20 14:05:00,002:INFO :-1221256448:Init component SonarAgent
+2013-06-20 14:05:00,002:INFO :-1221256448:Init component CulpaScheduler
+2013-06-20 14:05:00,003:INFO :-1221256448:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:05:00,003:INFO :-1239663808:Scheduler started
+2013-06-20 14:05:00,003:INFO :-1221256448:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:06:00)" to job store "default"
+2013-06-20 14:05:00,004:INFO :-1221256448:Init Culpa Pyramid app
+2013-06-20 14:05:00,095:INFO :-1221256448:End init Culpa Pyramid app
+2013-06-20 14:09:19,279:INFO :-1221395712: _______  __   __  ___      _______  _______ 
+2013-06-20 14:09:19,302:INFO :-1221395712:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:09:19,302:INFO :-1221395712:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:09:19,303:INFO :-1221395712:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:09:19,303:INFO :-1221395712:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:09:19,303:INFO :-1221395712:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:09:19,303:INFO :-1221395712:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:09:19,303:INFO :-1221395712:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:09:19,303:INFO :-1221395712:
+2013-06-20 14:09:19,303:INFO :-1221395712:Lets blame some devs...
+2013-06-20 14:09:19,303:INFO :-1221395712:Assembling Culpa components
+2013-06-20 14:09:19,303:INFO :-1221395712:Init component RedisRepo
+2013-06-20 14:09:19,303:INFO :-1221395712:Init component SonarAgent
+2013-06-20 14:09:19,303:INFO :-1221395712:Init component CulpaScheduler
+2013-06-20 14:09:19,303:INFO :-1221395712:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:09:19,304:INFO :-1239880896:Scheduler started
+2013-06-20 14:09:19,304:INFO :-1221395712:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:10:00)" to job store "default"
+2013-06-20 14:09:19,305:INFO :-1221395712:Init Culpa Pyramid app
+2013-06-20 14:09:19,901:INFO :-1221395712:End init Culpa Pyramid app
+2013-06-20 14:10:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:11:00)" (scheduled at 2013-06-20 14:10:00)
+2013-06-20 14:10:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:10:00,001:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:10:00,100:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:10:00,100:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:10:00,101:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:11:00)" executed successfully
+2013-06-20 14:11:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:12:00)" (scheduled at 2013-06-20 14:11:00)
+2013-06-20 14:11:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:11:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:11:00,052:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:11:00,052:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:11:00,052:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:12:00)" executed successfully
+2013-06-20 14:12:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:12:00)" (scheduled at 2013-06-20 14:12:00)
+2013-06-20 14:12:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:12:00,001:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:12:00,668:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:12:00,668:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:12:00,668:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:13:00)" executed successfully
+2013-06-20 14:13:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:13:00)" (scheduled at 2013-06-20 14:13:00)
+2013-06-20 14:13:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:13:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:13:00,039:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:13:00,040:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:13:00,040:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:14:00)" executed successfully
+2013-06-20 14:14:00,002:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:15:00)" (scheduled at 2013-06-20 14:14:00)
+2013-06-20 14:14:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:14:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:14:00,034:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:14:00,034:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:14:00,034:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:15:00)" executed successfully
+2013-06-20 14:15:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:15:00)" (scheduled at 2013-06-20 14:15:00)
+2013-06-20 14:15:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:15:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:15:00,032:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:15:00,033:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:15:00,033:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:16:00)" executed successfully
+2013-06-20 14:16:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:17:00)" (scheduled at 2013-06-20 14:16:00)
+2013-06-20 14:16:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:16:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:16:00,033:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:16:00,034:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:16:00,034:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:17:00)" executed successfully
+2013-06-20 14:17:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:17:00)" (scheduled at 2013-06-20 14:17:00)
+2013-06-20 14:17:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:17:00,001:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:17:00,032:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:17:00,033:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:17:00,033:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:18:00)" executed successfully
+2013-06-20 14:18:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:18:00)" (scheduled at 2013-06-20 14:18:00)
+2013-06-20 14:18:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:18:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:18:00,034:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:18:00,034:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:18:00,034:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:19:00)" executed successfully
+2013-06-20 14:19:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:19:00)" (scheduled at 2013-06-20 14:19:00)
+2013-06-20 14:19:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:19:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:19:00,032:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:19:00,032:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:19:00,033:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:20:00)" executed successfully
+2013-06-20 14:20:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:20:00)" (scheduled at 2013-06-20 14:20:00)
+2013-06-20 14:20:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:20:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:20:00,037:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:20:00,037:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:20:00,038:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:21:00)" executed successfully
+2013-06-20 14:21:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:21:00)" (scheduled at 2013-06-20 14:21:00)
+2013-06-20 14:21:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:21:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:21:00,033:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:21:00,034:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:21:00,034:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:22:00)" executed successfully
+2013-06-20 14:21:31,596:INFO :-1221121280: _______  __   __  ___      _______  _______ 
+2013-06-20 14:21:31,597:INFO :-1221121280:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:21:31,597:INFO :-1221121280:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:21:31,597:INFO :-1221121280:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:21:31,597:INFO :-1221121280:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:21:31,597:INFO :-1221121280:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:21:31,597:INFO :-1221121280:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:21:31,597:INFO :-1221121280:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:21:31,597:INFO :-1221121280:
+2013-06-20 14:21:31,597:INFO :-1221121280:Lets blame some devs...
+2013-06-20 14:21:31,597:INFO :-1221121280:Assembling Culpa components
+2013-06-20 14:21:31,597:INFO :-1221121280:Init component RedisRepo
+2013-06-20 14:21:31,597:INFO :-1221121280:Init component SonarAgent
+2013-06-20 14:21:31,597:INFO :-1221121280:Init component CulpaScheduler
+2013-06-20 14:21:31,597:INFO :-1221121280:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:21:31,598:INFO :-1239581888:Scheduler started
+2013-06-20 14:21:31,598:INFO :-1221121280:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:22:00)" to job store "default"
+2013-06-20 14:21:31,599:INFO :-1221121280:Init Culpa Pyramid app
+2013-06-20 14:21:31,692:INFO :-1221121280:End init Culpa Pyramid app
+2013-06-20 14:22:00,000:INFO :-1251480768:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:22:00)" (scheduled at 2013-06-20 14:22:00)
+2013-06-20 14:22:00,001:INFO :-1251480768:Running scheduled sonar check!
+2013-06-20 14:22:00,001:INFO :-1251480768:SonarAgent is checking the state of the projects!
+2013-06-20 14:22:00,034:ERROR:-1251480768:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:22:00,034:INFO :-1251480768:SonarAgent is done checking the state of the builds!
+2013-06-20 14:22:00,035:INFO :-1251480768:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:23:00)" executed successfully
+2013-06-20 14:23:00,001:INFO :-1251480768:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:23:00)" (scheduled at 2013-06-20 14:23:00)
+2013-06-20 14:23:00,002:INFO :-1251480768:Running scheduled sonar check!
+2013-06-20 14:23:00,002:INFO :-1251480768:SonarAgent is checking the state of the projects!
+2013-06-20 14:23:00,034:ERROR:-1251480768:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:23:00,034:INFO :-1251480768:SonarAgent is done checking the state of the builds!
+2013-06-20 14:23:00,034:INFO :-1251480768:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:24:00)" executed successfully
+2013-06-20 14:24:00,001:INFO :-1251480768:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:24:00)" (scheduled at 2013-06-20 14:24:00)
+2013-06-20 14:24:00,002:INFO :-1251480768:Running scheduled sonar check!
+2013-06-20 14:24:00,002:INFO :-1251480768:SonarAgent is checking the state of the projects!
+2013-06-20 14:24:00,100:ERROR:-1251480768:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:24:00,100:INFO :-1251480768:SonarAgent is done checking the state of the builds!
+2013-06-20 14:24:00,101:INFO :-1251480768:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:25:00)" executed successfully
+2013-06-20 14:25:00,001:INFO :-1251480768:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:25:00)" (scheduled at 2013-06-20 14:25:00)
+2013-06-20 14:25:00,002:INFO :-1251480768:Running scheduled sonar check!
+2013-06-20 14:25:00,002:INFO :-1251480768:SonarAgent is checking the state of the projects!
+2013-06-20 14:25:00,034:ERROR:-1251480768:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:25:00,034:INFO :-1251480768:SonarAgent is done checking the state of the builds!
+2013-06-20 14:25:00,034:INFO :-1251480768:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:26:00)" executed successfully
+2013-06-20 14:26:00,001:INFO :-1251480768:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:26:00)" (scheduled at 2013-06-20 14:26:00)
+2013-06-20 14:26:00,002:INFO :-1251480768:Running scheduled sonar check!
+2013-06-20 14:26:00,002:INFO :-1251480768:SonarAgent is checking the state of the projects!
+2013-06-20 14:26:00,037:ERROR:-1251480768:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:26:00,037:INFO :-1251480768:SonarAgent is done checking the state of the builds!
+2013-06-20 14:26:00,037:INFO :-1251480768:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:27:00)" executed successfully
+2013-06-20 14:26:07,648:INFO :-1221149952: _______  __   __  ___      _______  _______ 
+2013-06-20 14:26:07,648:INFO :-1221149952:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:26:07,648:INFO :-1221149952:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:26:07,648:INFO :-1221149952:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:26:07,648:INFO :-1221149952:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:26:07,648:INFO :-1221149952:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:26:07,648:INFO :-1221149952:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:26:07,648:INFO :-1221149952:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:26:07,648:INFO :-1221149952:
+2013-06-20 14:26:07,648:INFO :-1221149952:Lets blame some devs...
+2013-06-20 14:26:07,648:INFO :-1221149952:Assembling Culpa components
+2013-06-20 14:26:07,648:INFO :-1221149952:Init component RedisRepo
+2013-06-20 14:26:07,648:INFO :-1221149952:Init component SonarAgent
+2013-06-20 14:26:07,648:INFO :-1221149952:Init component CulpaScheduler
+2013-06-20 14:26:07,649:INFO :-1221149952:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:26:07,649:INFO :-1239581888:Scheduler started
+2013-06-20 14:26:07,649:INFO :-1221149952:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:27:00)" to job store "default"
+2013-06-20 14:26:07,650:INFO :-1221149952:Init Culpa Pyramid app
+2013-06-20 14:26:07,737:INFO :-1221149952:End init Culpa Pyramid app
+2013-06-20 14:27:00,001:INFO :-1251480768:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:28:00)" (scheduled at 2013-06-20 14:27:00)
+2013-06-20 14:27:00,001:INFO :-1251480768:Running scheduled sonar check!
+2013-06-20 14:27:00,001:INFO :-1251480768:SonarAgent is checking the state of the projects!
+2013-06-20 14:27:00,036:ERROR:-1251480768:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:27:00,036:INFO :-1251480768:SonarAgent is done checking the state of the builds!
+2013-06-20 14:27:00,036:INFO :-1251480768:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:28:00)" executed successfully
+2013-06-20 14:28:00,001:INFO :-1251480768:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:29:00)" (scheduled at 2013-06-20 14:28:00)
+2013-06-20 14:28:00,002:INFO :-1251480768:Running scheduled sonar check!
+2013-06-20 14:28:00,002:INFO :-1251480768:SonarAgent is checking the state of the projects!
+2013-06-20 14:28:00,032:ERROR:-1251480768:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:28:00,033:INFO :-1251480768:SonarAgent is done checking the state of the builds!
+2013-06-20 14:28:00,033:INFO :-1251480768:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:29:00)" executed successfully
+2013-06-20 14:29:00,001:INFO :-1251480768:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:29:00)" (scheduled at 2013-06-20 14:29:00)
+2013-06-20 14:29:00,001:INFO :-1251480768:Running scheduled sonar check!
+2013-06-20 14:29:00,001:INFO :-1251480768:SonarAgent is checking the state of the projects!
+2013-06-20 14:29:00,034:ERROR:-1251480768:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:29:00,034:INFO :-1251480768:SonarAgent is done checking the state of the builds!
+2013-06-20 14:29:00,034:INFO :-1251480768:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:30:00)" executed successfully
+2013-06-20 14:30:00,001:INFO :-1251480768:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:30:00)" (scheduled at 2013-06-20 14:30:00)
+2013-06-20 14:30:00,001:INFO :-1251480768:Running scheduled sonar check!
+2013-06-20 14:30:00,002:INFO :-1251480768:SonarAgent is checking the state of the projects!
+2013-06-20 14:30:00,034:ERROR:-1251480768:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:30:00,035:INFO :-1251480768:SonarAgent is done checking the state of the builds!
+2013-06-20 14:30:00,035:INFO :-1251480768:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:31:00)" executed successfully
+2013-06-20 14:30:53,836:INFO :-1222006016: _______  __   __  ___      _______  _______ 
+2013-06-20 14:30:53,836:INFO :-1222006016:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:30:53,836:INFO :-1222006016:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:30:53,836:INFO :-1222006016:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:30:53,836:INFO :-1222006016:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:30:53,836:INFO :-1222006016:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:30:53,836:INFO :-1222006016:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:30:53,836:INFO :-1222006016:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:30:53,836:INFO :-1222006016:
+2013-06-20 14:30:53,836:INFO :-1222006016:Lets blame some devs...
+2013-06-20 14:30:53,837:INFO :-1222006016:Assembling Culpa components
+2013-06-20 14:30:53,837:INFO :-1222006016:Init component RedisRepo
+2013-06-20 14:30:53,837:INFO :-1222006016:Init component SonarAgent
+2013-06-20 14:30:53,837:INFO :-1222006016:Init component CulpaScheduler
+2013-06-20 14:30:53,837:INFO :-1222006016:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:30:53,837:INFO :-1240413376:Scheduler started
+2013-06-20 14:30:53,837:INFO :-1222006016:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:31:00)" to job store "default"
+2013-06-20 14:30:53,838:INFO :-1222006016:Init Culpa Pyramid app
+2013-06-20 14:30:54,149:INFO :-1222006016:Shutting down thread pool
+2013-06-20 14:34:47,930:INFO :-1221928192: _______  __   __  ___      _______  _______ 
+2013-06-20 14:34:47,930:INFO :-1221928192:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:34:47,930:INFO :-1221928192:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:34:47,930:INFO :-1221928192:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:34:47,930:INFO :-1221928192:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:34:47,930:INFO :-1221928192:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:34:47,930:INFO :-1221928192:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:34:47,931:INFO :-1221928192:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:34:47,931:INFO :-1221928192:
+2013-06-20 14:34:47,931:INFO :-1221928192:Lets blame some devs...
+2013-06-20 14:34:47,931:INFO :-1221928192:Assembling Culpa components
+2013-06-20 14:34:47,931:INFO :-1221928192:Init component RedisRepo
+2013-06-20 14:34:47,931:INFO :-1221928192:Init component SonarAgent
+2013-06-20 14:34:47,931:INFO :-1221928192:Init component CulpaScheduler
+2013-06-20 14:34:47,931:INFO :-1221928192:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:34:47,931:INFO :-1240388800:Scheduler started
+2013-06-20 14:34:47,932:INFO :-1221928192:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:35:00)" to job store "default"
+2013-06-20 14:34:47,932:INFO :-1221928192:Init Culpa Pyramid app
+2013-06-20 14:34:48,041:INFO :-1221928192:End init Culpa Pyramid app
+2013-06-20 14:35:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:36:00)" (scheduled at 2013-06-20 14:35:00)
+2013-06-20 14:35:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:35:00,001:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:35:00,042:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:35:00,042:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:35:00,042:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:36:00)" executed successfully
+2013-06-20 14:36:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:36:00)" (scheduled at 2013-06-20 14:36:00)
+2013-06-20 14:36:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:36:00,001:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:36:00,033:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:36:00,034:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:36:00,034:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:37:00)" executed successfully
+2013-06-20 14:37:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:37:00)" (scheduled at 2013-06-20 14:37:00)
+2013-06-20 14:37:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:37:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:37:00,032:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:37:00,032:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:37:00,032:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:38:00)" executed successfully
+2013-06-20 14:38:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:38:00)" (scheduled at 2013-06-20 14:38:00)
+2013-06-20 14:38:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:38:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:38:00,043:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:38:00,044:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:38:00,044:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:39:00)" executed successfully
+2013-06-20 14:39:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:39:00)" (scheduled at 2013-06-20 14:39:00)
+2013-06-20 14:39:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:39:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:39:00,036:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:39:00,036:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:39:00,036:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:40:00)" executed successfully
+2013-06-20 14:40:00,002:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:41:00)" (scheduled at 2013-06-20 14:40:00)
+2013-06-20 14:40:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:40:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:40:00,033:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:40:00,033:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:40:00,033:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:41:00)" executed successfully
+2013-06-20 14:41:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:42:00)" (scheduled at 2013-06-20 14:41:00)
+2013-06-20 14:41:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:41:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:41:00,033:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:41:00,033:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:41:00,034:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:42:00)" executed successfully
+2013-06-20 14:42:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:42:00)" (scheduled at 2013-06-20 14:42:00)
+2013-06-20 14:42:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:42:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:42:00,037:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:42:00,037:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:42:00,037:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:43:00)" executed successfully
+2013-06-20 14:43:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:43:00)" (scheduled at 2013-06-20 14:43:00)
+2013-06-20 14:43:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:43:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:43:00,035:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:43:00,035:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:43:00,035:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:44:00)" executed successfully
+2013-06-20 14:44:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:45:00)" (scheduled at 2013-06-20 14:44:00)
+2013-06-20 14:44:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:44:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:44:00,040:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:44:00,040:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:44:00,041:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:45:00)" executed successfully
+2013-06-20 14:48:03,525:INFO :-1221379328: _______  __   __  ___      _______  _______ 
+2013-06-20 14:48:03,525:INFO :-1221379328:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:48:03,525:INFO :-1221379328:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:48:03,525:INFO :-1221379328:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:48:03,525:INFO :-1221379328:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:48:03,525:INFO :-1221379328:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:48:03,525:INFO :-1221379328:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:48:03,525:INFO :-1221379328:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:48:03,526:INFO :-1221379328:
+2013-06-20 14:48:03,526:INFO :-1221379328:Lets blame some devs...
+2013-06-20 14:48:03,526:INFO :-1221379328:Assembling Culpa components
+2013-06-20 14:48:03,526:INFO :-1221379328:Init component RedisRepo
+2013-06-20 14:48:03,526:INFO :-1221379328:Init component SonarAgent
+2013-06-20 14:48:03,526:INFO :-1221379328:Init component CulpaScheduler
+2013-06-20 14:48:03,526:INFO :-1221379328:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:48:03,526:INFO :-1239880896:Scheduler started
+2013-06-20 14:48:03,527:INFO :-1221379328:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:49:00)" to job store "default"
+2013-06-20 14:48:03,527:INFO :-1221379328:Init Culpa Pyramid app
+2013-06-20 14:48:03,615:INFO :-1221379328:End init Culpa Pyramid app
+2013-06-20 14:48:32,184:INFO :-1221825792: _______  __   __  ___      _______  _______ 
+2013-06-20 14:48:32,184:INFO :-1221825792:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:48:32,184:INFO :-1221825792:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:48:32,184:INFO :-1221825792:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:48:32,184:INFO :-1221825792:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:48:32,184:INFO :-1221825792:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:48:32,184:INFO :-1221825792:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:48:32,184:INFO :-1221825792:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:48:32,184:INFO :-1221825792:
+2013-06-20 14:48:32,184:INFO :-1221825792:Lets blame some devs...
+2013-06-20 14:48:32,184:INFO :-1221825792:Assembling Culpa components
+2013-06-20 14:48:32,185:INFO :-1221825792:Init component RedisRepo
+2013-06-20 14:48:32,185:INFO :-1221825792:Init component SonarAgent
+2013-06-20 14:48:32,185:INFO :-1221825792:Init component CulpaScheduler
+2013-06-20 14:48:32,185:INFO :-1221825792:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:48:32,185:INFO :-1240306880:Scheduler started
+2013-06-20 14:48:32,186:INFO :-1221825792:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:49:00)" to job store "default"
+2013-06-20 14:48:32,186:INFO :-1221825792:Init Culpa Pyramid app
+2013-06-20 14:48:32,279:INFO :-1221825792:End init Culpa Pyramid app
+2013-06-20 14:48:36,612:INFO :-1221059840: _______  __   __  ___      _______  _______ 
+2013-06-20 14:48:36,612:INFO :-1221059840:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:48:36,612:INFO :-1221059840:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:48:36,612:INFO :-1221059840:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:48:36,612:INFO :-1221059840:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:48:36,612:INFO :-1221059840:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:48:36,612:INFO :-1221059840:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:48:36,612:INFO :-1221059840:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:48:36,612:INFO :-1221059840:
+2013-06-20 14:48:36,612:INFO :-1221059840:Lets blame some devs...
+2013-06-20 14:48:36,613:INFO :-1221059840:Assembling Culpa components
+2013-06-20 14:48:36,613:INFO :-1221059840:Init component RedisRepo
+2013-06-20 14:48:36,613:INFO :-1221059840:Init component SonarAgent
+2013-06-20 14:48:36,613:INFO :-1221059840:Init component CulpaScheduler
+2013-06-20 14:48:36,613:INFO :-1221059840:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:48:36,613:INFO :-1239581888:Scheduler started
+2013-06-20 14:48:36,614:INFO :-1221059840:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:49:00)" to job store "default"
+2013-06-20 14:48:36,614:INFO :-1221059840:Init Culpa Pyramid app
+2013-06-20 14:48:36,707:INFO :-1221059840:End init Culpa Pyramid app
+2013-06-20 14:48:42,031:INFO :-1222010112: _______  __   __  ___      _______  _______ 
+2013-06-20 14:48:42,031:INFO :-1222010112:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:48:42,031:INFO :-1222010112:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:48:42,031:INFO :-1222010112:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:48:42,031:INFO :-1222010112:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:48:42,031:INFO :-1222010112:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:48:42,031:INFO :-1222010112:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:48:42,032:INFO :-1222010112:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:48:42,032:INFO :-1222010112:
+2013-06-20 14:48:42,032:INFO :-1222010112:Lets blame some devs...
+2013-06-20 14:48:42,032:INFO :-1222010112:Assembling Culpa components
+2013-06-20 14:48:42,032:INFO :-1222010112:Init component RedisRepo
+2013-06-20 14:48:42,032:INFO :-1222010112:Init component SonarAgent
+2013-06-20 14:48:42,032:INFO :-1222010112:Init component CulpaScheduler
+2013-06-20 14:48:42,032:INFO :-1222010112:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:48:42,033:INFO :-1240413376:Scheduler started
+2013-06-20 14:48:42,033:INFO :-1222010112:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:49:00)" to job store "default"
+2013-06-20 14:48:42,033:INFO :-1222010112:Init Culpa Pyramid app
+2013-06-20 14:48:42,131:INFO :-1222010112:End init Culpa Pyramid app
+2013-06-20 14:48:50,113:INFO :-1221412096: _______  __   __  ___      _______  _______ 
+2013-06-20 14:48:50,113:INFO :-1221412096:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:48:50,113:INFO :-1221412096:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:48:50,113:INFO :-1221412096:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:48:50,113:INFO :-1221412096:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:48:50,113:INFO :-1221412096:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:48:50,113:INFO :-1221412096:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:48:50,113:INFO :-1221412096:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:48:50,113:INFO :-1221412096:
+2013-06-20 14:48:50,113:INFO :-1221412096:Lets blame some devs...
+2013-06-20 14:48:50,114:INFO :-1221412096:Assembling Culpa components
+2013-06-20 14:48:50,114:INFO :-1221412096:Init component RedisRepo
+2013-06-20 14:48:50,114:INFO :-1221412096:Init component SonarAgent
+2013-06-20 14:48:50,114:INFO :-1221412096:Init component CulpaScheduler
+2013-06-20 14:48:50,114:INFO :-1221412096:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:48:50,114:INFO :-1239962816:Scheduler started
+2013-06-20 14:48:50,115:INFO :-1221412096:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:49:00)" to job store "default"
+2013-06-20 14:48:50,115:INFO :-1221412096:Init Culpa Pyramid app
+2013-06-20 14:48:50,205:INFO :-1221412096:End init Culpa Pyramid app
+2013-06-20 14:49:00,000:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:49:00)" (scheduled at 2013-06-20 14:49:00)
+2013-06-20 14:49:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:49:00,001:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:49:00,035:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:49:00,035:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:49:00,036:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:50:00)" executed successfully
+2013-06-20 14:49:52,538:ERROR:-1221412096:Exception at http://localhost:8888/socket.io/1/xhr-polling/547535806?t=1371732532093
+traceback url: http://localhost:8888/_debug_toolbar/exception?token=ad052c7b69737ddea052&tb=159469676
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyramid_debugtoolbar-1.0.6-py2.7.egg/pyramid_debugtoolbar/toolbar.py", line 141, in toolbar_tween
+    response = _handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid_debugtoolbar-1.0.6-py2.7.egg/pyramid_debugtoolbar/panels/performance.py", line 55, in resource_timer_handler
+    result = handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/router.py", line 161, in handle_request
+    response = view_callable(context, request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/config/views.py", line 396, in viewresult_to_response
+    raise ValueError(msg % (view_description(view), result))
+ValueError: Could not convert return value of the view callable function culpa.views.socketio into a response object. The value returned was None. You may have forgotten to return a value from the view callable.
+2013-06-20 14:50:00,002:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:51:00)" (scheduled at 2013-06-20 14:50:00)
+2013-06-20 14:50:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:50:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:50:00,035:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:50:00,035:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:50:00,035:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:51:00)" executed successfully
+2013-06-20 14:51:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:52:00)" (scheduled at 2013-06-20 14:51:00)
+2013-06-20 14:51:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:51:00,001:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:51:00,031:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:51:00,032:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:51:00,032:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:52:00)" executed successfully
+2013-06-20 14:52:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:52:00)" (scheduled at 2013-06-20 14:52:00)
+2013-06-20 14:52:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:52:00,001:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:52:00,038:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:52:00,038:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:52:00,038:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:53:00)" executed successfully
+2013-06-20 14:52:50,815:INFO :-1221645568: _______  __   __  ___      _______  _______ 
+2013-06-20 14:52:50,815:INFO :-1221645568:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:52:50,815:INFO :-1221645568:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:52:50,815:INFO :-1221645568:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:52:50,815:INFO :-1221645568:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:52:50,815:INFO :-1221645568:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:52:50,815:INFO :-1221645568:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:52:50,815:INFO :-1221645568:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:52:50,815:INFO :-1221645568:
+2013-06-20 14:52:50,815:INFO :-1221645568:Lets blame some devs...
+2013-06-20 14:52:50,815:INFO :-1221645568:Assembling Culpa components
+2013-06-20 14:52:50,815:INFO :-1221645568:Init component RedisRepo
+2013-06-20 14:52:50,815:INFO :-1221645568:Init component SonarAgent
+2013-06-20 14:52:50,815:INFO :-1221645568:Init component CulpaScheduler
+2013-06-20 14:52:50,816:INFO :-1221645568:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:52:50,816:INFO :-1221645568:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:53:00)" to job store "default"
+2013-06-20 14:52:50,816:INFO :-1221645568:Init Culpa Pyramid app
+2013-06-20 14:52:50,825:INFO :-1240057024:Scheduler started
+2013-06-20 14:52:50,907:INFO :-1221645568:End init Culpa Pyramid app
+2013-06-20 14:53:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:54:00)" (scheduled at 2013-06-20 14:53:00)
+2013-06-20 14:53:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:53:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:53:00,036:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:53:00,037:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:53:00,037:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:54:00)" executed successfully
+2013-06-20 14:54:00,002:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:54:00)" (scheduled at 2013-06-20 14:54:00)
+2013-06-20 14:54:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:54:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:54:00,032:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:54:00,032:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:54:00,032:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:55:00)" executed successfully
+2013-06-20 14:55:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:55:00)" (scheduled at 2013-06-20 14:55:00)
+2013-06-20 14:55:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 14:55:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 14:55:00,037:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:55:00,037:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 14:55:00,037:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:56:00)" executed successfully
+2013-06-20 14:55:58,994:INFO :-1221006592: _______  __   __  ___      _______  _______ 
+2013-06-20 14:55:58,994:INFO :-1221006592:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:55:58,994:INFO :-1221006592:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:55:58,994:INFO :-1221006592:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:55:58,994:INFO :-1221006592:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:55:58,994:INFO :-1221006592:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:55:58,994:INFO :-1221006592:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:55:58,994:INFO :-1221006592:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:55:58,994:INFO :-1221006592:
+2013-06-20 14:55:58,994:INFO :-1221006592:Lets blame some devs...
+2013-06-20 14:55:58,994:INFO :-1221006592:Assembling Culpa components
+2013-06-20 14:55:58,995:INFO :-1221006592:Init component RedisRepo
+2013-06-20 14:55:58,995:INFO :-1221006592:Init component SonarAgent
+2013-06-20 14:55:58,995:INFO :-1221006592:Init component CulpaScheduler
+2013-06-20 14:55:58,995:INFO :-1221006592:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:55:58,995:INFO :-1239418048:Scheduler started
+2013-06-20 14:55:58,996:INFO :-1221006592:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:56:00)" to job store "default"
+2013-06-20 14:55:58,996:INFO :-1221006592:Init Culpa Pyramid app
+2013-06-20 14:55:59,088:INFO :-1221006592:End init Culpa Pyramid app
+2013-06-20 14:56:00,001:INFO :-1251480768:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:57:00)" (scheduled at 2013-06-20 14:56:00)
+2013-06-20 14:56:00,001:INFO :-1251480768:Running scheduled sonar check!
+2013-06-20 14:56:00,001:INFO :-1251480768:SonarAgent is checking the state of the projects!
+2013-06-20 14:56:00,035:ERROR:-1251480768:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:56:00,035:INFO :-1251480768:SonarAgent is done checking the state of the builds!
+2013-06-20 14:56:00,035:INFO :-1251480768:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:57:00)" executed successfully
+2013-06-20 14:57:00,001:INFO :-1251480768:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:57:00)" (scheduled at 2013-06-20 14:57:00)
+2013-06-20 14:57:00,001:INFO :-1251480768:Running scheduled sonar check!
+2013-06-20 14:57:00,002:INFO :-1251480768:SonarAgent is checking the state of the projects!
+2013-06-20 14:57:00,034:ERROR:-1251480768:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:57:00,034:INFO :-1251480768:SonarAgent is done checking the state of the builds!
+2013-06-20 14:57:00,034:INFO :-1251480768:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:58:00)" executed successfully
+2013-06-20 14:58:00,001:INFO :-1251480768:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:58:00)" (scheduled at 2013-06-20 14:58:00)
+2013-06-20 14:58:00,002:INFO :-1251480768:Running scheduled sonar check!
+2013-06-20 14:58:00,002:INFO :-1251480768:SonarAgent is checking the state of the projects!
+2013-06-20 14:58:00,035:ERROR:-1251480768:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:58:00,036:INFO :-1251480768:SonarAgent is done checking the state of the builds!
+2013-06-20 14:58:00,036:INFO :-1251480768:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:59:00)" executed successfully
+2013-06-20 14:58:32,877:INFO :-1221563648: _______  __   __  ___      _______  _______ 
+2013-06-20 14:58:32,877:INFO :-1221563648:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:58:32,877:INFO :-1221563648:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:58:32,877:INFO :-1221563648:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:58:32,877:INFO :-1221563648:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:58:32,877:INFO :-1221563648:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:58:32,877:INFO :-1221563648:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:58:32,877:INFO :-1221563648:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:58:32,877:INFO :-1221563648:
+2013-06-20 14:58:32,877:INFO :-1221563648:Lets blame some devs...
+2013-06-20 14:58:32,877:INFO :-1221563648:Assembling Culpa components
+2013-06-20 14:58:32,877:INFO :-1221563648:Init component RedisRepo
+2013-06-20 14:58:32,878:INFO :-1221563648:Init component SonarAgent
+2013-06-20 14:58:32,878:INFO :-1221563648:Init component CulpaScheduler
+2013-06-20 14:58:32,878:INFO :-1221563648:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:58:32,878:INFO :-1240069312:Scheduler started
+2013-06-20 14:58:32,879:INFO :-1221563648:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:59:00)" to job store "default"
+2013-06-20 14:58:32,879:INFO :-1221563648:Init Culpa Pyramid app
+2013-06-20 14:58:32,973:INFO :-1221563648:End init Culpa Pyramid app
+2013-06-20 14:58:48,031:INFO :-1221727488: _______  __   __  ___      _______  _______ 
+2013-06-20 14:58:48,031:INFO :-1221727488:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:58:48,031:INFO :-1221727488:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:58:48,032:INFO :-1221727488:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:58:48,032:INFO :-1221727488:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:58:48,032:INFO :-1221727488:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:58:48,032:INFO :-1221727488:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:58:48,032:INFO :-1221727488:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:58:48,032:INFO :-1221727488:
+2013-06-20 14:58:48,032:INFO :-1221727488:Lets blame some devs...
+2013-06-20 14:58:48,032:INFO :-1221727488:Assembling Culpa components
+2013-06-20 14:58:48,032:INFO :-1221727488:Init component RedisRepo
+2013-06-20 14:58:48,032:INFO :-1221727488:Init component SonarAgent
+2013-06-20 14:58:48,032:INFO :-1221727488:Init component CulpaScheduler
+2013-06-20 14:58:48,032:INFO :-1221727488:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:58:48,033:INFO :-1240143040:Scheduler started
+2013-06-20 14:58:48,033:INFO :-1221727488:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:59:00)" to job store "default"
+2013-06-20 14:58:48,034:INFO :-1221727488:Init Culpa Pyramid app
+2013-06-20 14:58:48,124:INFO :-1221727488:End init Culpa Pyramid app
+2013-06-20 14:58:55,699:INFO :-1221575936: _______  __   __  ___      _______  _______ 
+2013-06-20 14:58:55,699:INFO :-1221575936:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:58:55,699:INFO :-1221575936:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:58:55,699:INFO :-1221575936:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:58:55,699:INFO :-1221575936:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:58:55,699:INFO :-1221575936:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:58:55,699:INFO :-1221575936:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:58:55,699:INFO :-1221575936:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:58:55,699:INFO :-1221575936:
+2013-06-20 14:58:55,699:INFO :-1221575936:Lets blame some devs...
+2013-06-20 14:58:55,700:INFO :-1221575936:Assembling Culpa components
+2013-06-20 14:58:55,700:INFO :-1221575936:Init component RedisRepo
+2013-06-20 14:58:55,700:INFO :-1221575936:Init component SonarAgent
+2013-06-20 14:58:55,700:INFO :-1221575936:Init component CulpaScheduler
+2013-06-20 14:58:55,700:INFO :-1221575936:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:58:55,700:INFO :-1240069312:Scheduler started
+2013-06-20 14:58:55,701:INFO :-1221575936:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:59:00)" to job store "default"
+2013-06-20 14:58:55,701:INFO :-1221575936:Init Culpa Pyramid app
+2013-06-20 14:58:55,795:INFO :-1221575936:End init Culpa Pyramid app
+2013-06-20 14:58:59,153:INFO :-1220977920: _______  __   __  ___      _______  _______ 
+2013-06-20 14:58:59,153:INFO :-1220977920:|       ||  | |  ||   |    |       ||       |
+2013-06-20 14:58:59,153:INFO :-1220977920:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 14:58:59,153:INFO :-1220977920:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 14:58:59,153:INFO :-1220977920:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 14:58:59,153:INFO :-1220977920:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 14:58:59,153:INFO :-1220977920:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 14:58:59,153:INFO :-1220977920:|_______||_______||_______||___|    |__| |__|
+2013-06-20 14:58:59,154:INFO :-1220977920:
+2013-06-20 14:58:59,154:INFO :-1220977920:Lets blame some devs...
+2013-06-20 14:58:59,154:INFO :-1220977920:Assembling Culpa components
+2013-06-20 14:58:59,154:INFO :-1220977920:Init component RedisRepo
+2013-06-20 14:58:59,154:INFO :-1220977920:Init component SonarAgent
+2013-06-20 14:58:59,154:INFO :-1220977920:Init component CulpaScheduler
+2013-06-20 14:58:59,154:INFO :-1220977920:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 14:58:59,154:INFO :-1239381184:Scheduler started
+2013-06-20 14:58:59,155:INFO :-1220977920:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:59:00)" to job store "default"
+2013-06-20 14:58:59,155:INFO :-1220977920:Init Culpa Pyramid app
+2013-06-20 14:58:59,251:INFO :-1220977920:End init Culpa Pyramid app
+2013-06-20 14:59:00,000:INFO :-1251144896:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 14:59:00)" (scheduled at 2013-06-20 14:59:00)
+2013-06-20 14:59:00,001:INFO :-1251144896:Running scheduled sonar check!
+2013-06-20 14:59:00,001:INFO :-1251144896:SonarAgent is checking the state of the projects!
+2013-06-20 14:59:00,034:ERROR:-1251144896:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 14:59:00,034:INFO :-1251144896:SonarAgent is done checking the state of the builds!
+2013-06-20 14:59:00,034:INFO :-1251144896:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:00:00)" executed successfully
+2013-06-20 15:00:02,068:WARNI:-1251144896:Run time of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:00:00)" was missed by 0:00:02.068767
+2013-06-20 15:02:46,614:INFO :-1221469440: _______  __   __  ___      _______  _______ 
+2013-06-20 15:02:46,715:INFO :-1221469440:|       ||  | |  ||   |    |       ||       |
+2013-06-20 15:02:46,717:INFO :-1221469440:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 15:02:46,717:INFO :-1221469440:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 15:02:46,717:INFO :-1221469440:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 15:02:46,717:INFO :-1221469440:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 15:02:46,717:INFO :-1221469440:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 15:02:46,717:INFO :-1221469440:|_______||_______||_______||___|    |__| |__|
+2013-06-20 15:02:46,717:INFO :-1221469440:
+2013-06-20 15:02:46,717:INFO :-1221469440:Lets blame some devs...
+2013-06-20 15:02:46,717:INFO :-1221469440:Assembling Culpa components
+2013-06-20 15:02:46,718:INFO :-1221469440:Init component RedisRepo
+2013-06-20 15:02:46,718:INFO :-1221469440:Init component SonarAgent
+2013-06-20 15:02:46,718:INFO :-1221469440:Init component CulpaScheduler
+2013-06-20 15:02:46,718:INFO :-1221469440:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 15:02:46,718:INFO :-1239962816:Scheduler started
+2013-06-20 15:02:46,719:INFO :-1221469440:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:03:00)" to job store "default"
+2013-06-20 15:02:46,719:INFO :-1221469440:Init Culpa Pyramid app
+2013-06-20 15:02:47,831:INFO :-1221469440:End init Culpa Pyramid app
+2013-06-20 15:03:00,000:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:03:00)" (scheduled at 2013-06-20 15:03:00)
+2013-06-20 15:03:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:03:00,001:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:03:00,061:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:03:00,061:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:03:00,061:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:04:00)" executed successfully
+2013-06-20 15:04:00,016:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:04:00)" (scheduled at 2013-06-20 15:04:00)
+2013-06-20 15:04:00,036:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:04:00,036:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:04:00,082:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:04:00,083:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:04:00,086:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:05:00)" executed successfully
+2013-06-20 15:05:07,072:WARNI:-1252111552:Run time of job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:06:00)" was missed by 0:00:07.069814
+2013-06-20 15:10:30,306:INFO :-1221973248: _______  __   __  ___      _______  _______ 
+2013-06-20 15:10:30,311:INFO :-1221973248:|       ||  | |  ||   |    |       ||       |
+2013-06-20 15:10:30,311:INFO :-1221973248:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 15:10:30,311:INFO :-1221973248:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 15:10:30,311:INFO :-1221973248:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 15:10:30,312:INFO :-1221973248:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 15:10:30,312:INFO :-1221973248:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 15:10:30,312:INFO :-1221973248:|_______||_______||_______||___|    |__| |__|
+2013-06-20 15:10:30,312:INFO :-1221973248:
+2013-06-20 15:10:30,312:INFO :-1221973248:Lets blame some devs...
+2013-06-20 15:10:30,312:INFO :-1221973248:Assembling Culpa components
+2013-06-20 15:10:30,312:INFO :-1221973248:Init component RedisRepo
+2013-06-20 15:10:30,312:INFO :-1221973248:Init component SonarAgent
+2013-06-20 15:10:30,312:INFO :-1221973248:Init component CulpaScheduler
+2013-06-20 15:10:30,312:INFO :-1221973248:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 15:10:30,312:INFO :-1240388800:Scheduler started
+2013-06-20 15:10:30,313:INFO :-1221973248:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:11:00)" to job store "default"
+2013-06-20 15:10:30,313:INFO :-1221973248:Init Culpa Pyramid app
+2013-06-20 15:10:30,915:INFO :-1221973248:End init Culpa Pyramid app
+2013-06-20 15:13:08,367:INFO :-1221956864: _______  __   __  ___      _______  _______ 
+2013-06-20 15:13:08,368:INFO :-1221956864:|       ||  | |  ||   |    |       ||       |
+2013-06-20 15:13:08,368:INFO :-1221956864:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 15:13:08,368:INFO :-1221956864:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 15:13:08,368:INFO :-1221956864:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 15:13:08,368:INFO :-1221956864:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 15:13:08,368:INFO :-1221956864:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 15:13:08,368:INFO :-1221956864:|_______||_______||_______||___|    |__| |__|
+2013-06-20 15:13:08,368:INFO :-1221956864:
+2013-06-20 15:13:08,368:INFO :-1221956864:Lets blame some devs...
+2013-06-20 15:13:08,368:INFO :-1221956864:Assembling Culpa components
+2013-06-20 15:13:08,368:INFO :-1221956864:Init component RedisRepo
+2013-06-20 15:13:08,368:INFO :-1221956864:Init component SonarAgent
+2013-06-20 15:13:08,368:INFO :-1221956864:Init component CulpaScheduler
+2013-06-20 15:13:08,368:INFO :-1221956864:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 15:13:08,369:INFO :-1240388800:Scheduler started
+2013-06-20 15:13:08,369:INFO :-1221956864:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:14:00)" to job store "default"
+2013-06-20 15:13:08,369:INFO :-1221956864:Init Culpa Pyramid app
+2013-06-20 15:13:08,460:INFO :-1221956864:End init Culpa Pyramid app
+2013-06-20 15:14:39,040:INFO :-1221334272: _______  __   __  ___      _______  _______ 
+2013-06-20 15:14:39,040:INFO :-1221334272:|       ||  | |  ||   |    |       ||       |
+2013-06-20 15:14:39,040:INFO :-1221334272:|       ||  | |  ||   |    |    _  ||   _   |
+2013-06-20 15:14:39,040:INFO :-1221334272:|       ||  |_|  ||   |    |   |_| ||  | |  |
+2013-06-20 15:14:39,040:INFO :-1221334272:|      _||       ||   |    |    ___||  |_|  |
+2013-06-20 15:14:39,040:INFO :-1221334272:|     |  |  o o  ||   |___ |   |    |       |
+2013-06-20 15:14:39,040:INFO :-1221334272:|     |_ |   T   ||       ||   |    |   _   |
+2013-06-20 15:14:39,040:INFO :-1221334272:|_______||_______||_______||___|    |__| |__|
+2013-06-20 15:14:39,040:INFO :-1221334272:
+2013-06-20 15:14:39,040:INFO :-1221334272:Lets blame some devs...
+2013-06-20 15:14:39,040:INFO :-1221334272:Assembling Culpa components
+2013-06-20 15:14:39,040:INFO :-1221334272:Init component RedisRepo
+2013-06-20 15:14:39,040:INFO :-1221334272:Init component SonarAgent
+2013-06-20 15:14:39,040:INFO :-1221334272:Init component CulpaScheduler
+2013-06-20 15:14:39,041:INFO :-1221334272:Started thread pool with 0 core threads and 20 maximum threads
+2013-06-20 15:14:39,041:INFO :-1239770304:Scheduler started
+2013-06-20 15:14:39,041:INFO :-1221334272:Added job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:15:00)" to job store "default"
+2013-06-20 15:14:39,042:INFO :-1221334272:Init Culpa Pyramid app
+2013-06-20 15:14:39,133:INFO :-1221334272:End init Culpa Pyramid app
+2013-06-20 15:15:00,000:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:15:00)" (scheduled at 2013-06-20 15:15:00)
+2013-06-20 15:15:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:15:00,001:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:15:00,058:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:15:00,058:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:15:00,058:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:16:00)" executed successfully
+2013-06-20 15:16:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:17:00)" (scheduled at 2013-06-20 15:16:00)
+2013-06-20 15:16:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:16:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:16:00,035:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:16:00,035:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:16:00,036:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:17:00)" executed successfully
+2013-06-20 15:17:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:18:00)" (scheduled at 2013-06-20 15:17:00)
+2013-06-20 15:17:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:17:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:17:00,042:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:17:00,043:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:17:00,043:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:18:00)" executed successfully
+2013-06-20 15:17:20,303:ERROR:-1221334272:Exception at http://localhost:8888/socket.io/1/xhr-polling/974479473004?t=1371734180025
+traceback url: http://localhost:8888/_debug_toolbar/exception?token=5a66a4cfc5a7d6a997de&tb=180025260
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyramid_debugtoolbar-1.0.6-py2.7.egg/pyramid_debugtoolbar/toolbar.py", line 141, in toolbar_tween
+    response = _handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid_debugtoolbar-1.0.6-py2.7.egg/pyramid_debugtoolbar/panels/performance.py", line 55, in resource_timer_handler
+    result = handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/router.py", line 161, in handle_request
+    response = view_callable(context, request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/config/views.py", line 396, in viewresult_to_response
+    raise ValueError(msg % (view_description(view), result))
+ValueError: Could not convert return value of the view callable function culpa.views.socketio into a response object. The value returned was None. You may have forgotten to return a value from the view callable.
+2013-06-20 15:18:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:18:00)" (scheduled at 2013-06-20 15:18:00)
+2013-06-20 15:18:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:18:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:18:00,059:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:18:00,059:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:18:00,059:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:19:00)" executed successfully
+2013-06-20 15:18:17,208:ERROR:-1221334272:Exception at http://localhost:8888/socket.io/1/xhr-polling/699784085684?t=1371734187022
+traceback url: http://localhost:8888/_debug_toolbar/exception?token=5a66a4cfc5a7d6a997de&tb=179963596
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyramid_debugtoolbar-1.0.6-py2.7.egg/pyramid_debugtoolbar/toolbar.py", line 141, in toolbar_tween
+    response = _handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid_debugtoolbar-1.0.6-py2.7.egg/pyramid_debugtoolbar/panels/performance.py", line 55, in resource_timer_handler
+    result = handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/router.py", line 161, in handle_request
+    response = view_callable(context, request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/config/views.py", line 396, in viewresult_to_response
+    raise ValueError(msg % (view_description(view), result))
+ValueError: Could not convert return value of the view callable function culpa.views.socketio into a response object. The value returned was None. You may have forgotten to return a value from the view callable.
+2013-06-20 15:19:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:19:00)" (scheduled at 2013-06-20 15:19:00)
+2013-06-20 15:19:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:19:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:19:00,034:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:19:00,034:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:19:00,035:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:20:00)" executed successfully
+2013-06-20 15:20:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:20:00)" (scheduled at 2013-06-20 15:20:00)
+2013-06-20 15:20:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:20:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:20:00,085:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:20:00,085:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:20:00,085:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:21:00)" executed successfully
+2013-06-20 15:21:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:21:00)" (scheduled at 2013-06-20 15:21:00)
+2013-06-20 15:21:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:21:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:21:00,043:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:21:00,043:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:21:00,043:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:22:00)" executed successfully
+2013-06-20 15:21:55,956:ERROR:-1221334272:Exception at http://localhost:8888/socket.io/1/xhr-polling/523829419393?t=1371734255651
+traceback url: http://localhost:8888/_debug_toolbar/exception?token=5a66a4cfc5a7d6a997de&tb=182470124
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyramid_debugtoolbar-1.0.6-py2.7.egg/pyramid_debugtoolbar/toolbar.py", line 141, in toolbar_tween
+    response = _handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid_debugtoolbar-1.0.6-py2.7.egg/pyramid_debugtoolbar/panels/performance.py", line 55, in resource_timer_handler
+    result = handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/router.py", line 161, in handle_request
+    response = view_callable(context, request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/config/views.py", line 396, in viewresult_to_response
+    raise ValueError(msg % (view_description(view), result))
+ValueError: Could not convert return value of the view callable function culpa.views.socketio into a response object. The value returned was None. You may have forgotten to return a value from the view callable.
+2013-06-20 15:22:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:22:00)" (scheduled at 2013-06-20 15:22:00)
+2013-06-20 15:22:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:22:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:22:00,059:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:22:00,059:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:22:00,059:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:23:00)" executed successfully
+2013-06-20 15:22:27,778:ERROR:-1221334272:Exception at http://localhost:8888/socket.io/1/xhr-polling/871892610009?t=1371734487686
+traceback url: http://localhost:8888/_debug_toolbar/exception?token=5a66a4cfc5a7d6a997de&tb=180881708
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyramid_debugtoolbar-1.0.6-py2.7.egg/pyramid_debugtoolbar/toolbar.py", line 141, in toolbar_tween
+    response = _handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid_debugtoolbar-1.0.6-py2.7.egg/pyramid_debugtoolbar/panels/performance.py", line 55, in resource_timer_handler
+    result = handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/router.py", line 161, in handle_request
+    response = view_callable(context, request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/config/views.py", line 396, in viewresult_to_response
+    raise ValueError(msg % (view_description(view), result))
+ValueError: Could not convert return value of the view callable function culpa.views.socketio into a response object. The value returned was None. You may have forgotten to return a value from the view callable.
+2013-06-20 15:23:00,002:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:23:00)" (scheduled at 2013-06-20 15:23:00)
+2013-06-20 15:23:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:23:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:23:00,040:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:23:00,040:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:23:00,040:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:24:00)" executed successfully
+2013-06-20 15:24:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:24:00)" (scheduled at 2013-06-20 15:24:00)
+2013-06-20 15:24:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:24:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:24:00,037:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:24:00,037:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:24:00,037:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:25:00)" executed successfully
+2013-06-20 15:25:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:25:00)" (scheduled at 2013-06-20 15:25:00)
+2013-06-20 15:25:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:25:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:25:00,042:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:25:00,042:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:25:00,043:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:26:00)" executed successfully
+2013-06-20 15:26:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:27:00)" (scheduled at 2013-06-20 15:26:00)
+2013-06-20 15:26:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:26:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:26:00,036:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:26:00,036:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:26:00,036:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:27:00)" executed successfully
+2013-06-20 15:26:23,138:ERROR:-1221334272:Exception at http://localhost:8888/socket.io/1/xhr-polling/0181084818239?t=1371734497895
+traceback url: http://localhost:8888/_debug_toolbar/exception?token=5a66a4cfc5a7d6a997de&tb=182476844
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyramid_debugtoolbar-1.0.6-py2.7.egg/pyramid_debugtoolbar/toolbar.py", line 141, in toolbar_tween
+    response = _handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid_debugtoolbar-1.0.6-py2.7.egg/pyramid_debugtoolbar/panels/performance.py", line 55, in resource_timer_handler
+    result = handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/router.py", line 161, in handle_request
+    response = view_callable(context, request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/config/views.py", line 396, in viewresult_to_response
+    raise ValueError(msg % (view_description(view), result))
+ValueError: Could not convert return value of the view callable function culpa.views.socketio into a response object. The value returned was None. You may have forgotten to return a value from the view callable.
+2013-06-20 15:27:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:27:00)" (scheduled at 2013-06-20 15:27:00)
+2013-06-20 15:27:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:27:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:27:00,035:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:27:00,036:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:27:00,036:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:28:00)" executed successfully
+2013-06-20 15:28:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:28:00)" (scheduled at 2013-06-20 15:28:00)
+2013-06-20 15:28:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:28:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:28:00,048:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:28:00,048:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:28:00,048:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:29:00)" executed successfully
+2013-06-20 15:29:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:29:00)" (scheduled at 2013-06-20 15:29:00)
+2013-06-20 15:29:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:29:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:29:00,034:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:29:00,035:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:29:00,035:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:30:00)" executed successfully
+2013-06-20 15:29:09,422:ERROR:-1221334272:Exception at http://localhost:8888/socket.io/1/xhr-polling/176232207648?t=1371734839276
+traceback url: http://localhost:8888/_debug_toolbar/exception?token=5a66a4cfc5a7d6a997de&tb=183871500
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyramid_debugtoolbar-1.0.6-py2.7.egg/pyramid_debugtoolbar/toolbar.py", line 141, in toolbar_tween
+    response = _handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid_debugtoolbar-1.0.6-py2.7.egg/pyramid_debugtoolbar/panels/performance.py", line 55, in resource_timer_handler
+    result = handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/router.py", line 161, in handle_request
+    response = view_callable(context, request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/config/views.py", line 396, in viewresult_to_response
+    raise ValueError(msg % (view_description(view), result))
+ValueError: Could not convert return value of the view callable function culpa.views.socketio into a response object. The value returned was None. You may have forgotten to return a value from the view callable.
+2013-06-20 15:30:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:30:00)" (scheduled at 2013-06-20 15:30:00)
+2013-06-20 15:30:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:30:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:30:00,035:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:30:00,035:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:30:00,035:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:31:00)" executed successfully
+2013-06-20 15:31:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:31:00)" (scheduled at 2013-06-20 15:31:00)
+2013-06-20 15:31:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:31:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:31:00,046:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:31:00,046:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:31:00,047:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:32:00)" executed successfully
+2013-06-20 15:32:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:33:00)" (scheduled at 2013-06-20 15:32:00)
+2013-06-20 15:32:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:32:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:32:00,040:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:32:00,040:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:32:00,040:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:33:00)" executed successfully
+2013-06-20 15:33:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:34:00)" (scheduled at 2013-06-20 15:33:00)
+2013-06-20 15:33:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:33:00,001:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:33:00,041:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:33:00,041:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:33:00,041:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:34:00)" executed successfully
+2013-06-20 15:34:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:34:00)" (scheduled at 2013-06-20 15:34:00)
+2013-06-20 15:34:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:34:00,001:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:34:00,037:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:34:00,037:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:34:00,037:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:35:00)" executed successfully
+2013-06-20 15:35:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:36:00)" (scheduled at 2013-06-20 15:35:00)
+2013-06-20 15:35:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:35:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:35:00,036:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:35:00,036:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:35:00,036:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:36:00)" executed successfully
+2013-06-20 15:35:38,459:ERROR:-1221334272:Exception at http://localhost:8888/socket.io/1/xhr-polling/582578938131?t=1371734128383
+traceback url: http://localhost:8888/_debug_toolbar/exception?token=5a66a4cfc5a7d6a997de&tb=180880332
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyramid_debugtoolbar-1.0.6-py2.7.egg/pyramid_debugtoolbar/toolbar.py", line 141, in toolbar_tween
+    response = _handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid_debugtoolbar-1.0.6-py2.7.egg/pyramid_debugtoolbar/panels/performance.py", line 55, in resource_timer_handler
+    result = handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/router.py", line 161, in handle_request
+    response = view_callable(context, request)
+  File "/usr/local/lib/python2.7/dist-packages/pyramid-1.4.1-py2.7.egg/pyramid/config/views.py", line 396, in viewresult_to_response
+    raise ValueError(msg % (view_description(view), result))
+ValueError: Could not convert return value of the view callable function culpa.views.socketio into a response object. The value returned was None. You may have forgotten to return a value from the view callable.
+2013-06-20 15:36:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:36:00)" (scheduled at 2013-06-20 15:36:00)
+2013-06-20 15:36:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:36:00,001:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:36:00,041:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:36:00,041:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:36:00,041:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:37:00)" executed successfully
+2013-06-20 15:37:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:37:00)" (scheduled at 2013-06-20 15:37:00)
+2013-06-20 15:37:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:37:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:37:00,043:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:37:00,043:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:37:00,043:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:38:00)" executed successfully
+2013-06-20 15:38:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:38:00)" (scheduled at 2013-06-20 15:38:00)
+2013-06-20 15:38:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:38:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:38:00,033:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:38:00,033:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:38:00,033:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:39:00)" executed successfully
+2013-06-20 15:39:00,002:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:40:00)" (scheduled at 2013-06-20 15:39:00)
+2013-06-20 15:39:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:39:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:39:00,035:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:39:00,035:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:39:00,035:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:40:00)" executed successfully
+2013-06-20 15:40:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:41:00)" (scheduled at 2013-06-20 15:40:00)
+2013-06-20 15:40:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:40:00,001:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:40:00,042:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:40:00,042:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:40:00,042:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:41:00)" executed successfully
+2013-06-20 15:41:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:41:00)" (scheduled at 2013-06-20 15:41:00)
+2013-06-20 15:41:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:41:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:41:00,045:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:41:00,045:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:41:00,045:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:42:00)" executed successfully
+2013-06-20 15:42:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:42:00)" (scheduled at 2013-06-20 15:42:00)
+2013-06-20 15:42:00,002:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:42:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:42:00,044:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:42:00,044:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:42:00,044:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:43:00)" executed successfully
+2013-06-20 15:43:00,001:INFO :-1252111552:Running job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:43:00)" (scheduled at 2013-06-20 15:43:00)
+2013-06-20 15:43:00,001:INFO :-1252111552:Running scheduled sonar check!
+2013-06-20 15:43:00,002:INFO :-1252111552:SonarAgent is checking the state of the projects!
+2013-06-20 15:43:00,038:ERROR:-1252111552:Exception while updating metric info of project be.milieuinfo.prtr:prtr -> {'message': 'Could not fetch url: https://www.milieuinfo.be/sonar/api/resources?resource=be.milieuinfo.prtr:prtr&metrics=coverage', 'cause': 'HTTP Error 401: Unauthorized'}
+2013-06-20 15:43:00,039:INFO :-1252111552:SonarAgent is done checking the state of the builds!
+2013-06-20 15:43:00,039:INFO :-1252111552:Job "CulpaScheduler.runSonarCheck (trigger: cron[minute='*'], next run at: 2013-06-20 15:44:00)" executed successfully
